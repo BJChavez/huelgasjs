@@ -1,4 +1,4 @@
-export const Huelgas = [
+export const STRIKES = [
   {
     "FECHA_CORTE": 20230330,
     "ANIOS": 1987,
