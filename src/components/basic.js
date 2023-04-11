@@ -1,10 +1,10 @@
 export const GRAPHIC = (ctx, strikes) => new Chart(ctx, {
-    type:'line',
+    type:'bar',
     data: {
         labels: strikes.map(a => a.ANIOS),
         datasets: [
             {
-                label: '# Por pliego de reclamos',
+                label: '# Pliego de reclamos',
                 data: strikes.map(r => r.HUELGAS_PLIEGO_RECLAMOS),
                 backgroundColor: '#00509d',
                 borderWidth: 1,
@@ -17,13 +17,15 @@ export const GRAPHIC = (ctx, strikes) => new Chart(ctx, {
         ]
     },
     options: {
-        animations: {
-            tension: {
-                duration: 2000,
-                easing: 'linear',
-                from: 1,
-                to: 0,
-                loop: true
+        events: ['click'],
+        plugins: {
+            title: {
+                display: true, 
+                text: 'Huelgas en el Perú 1987 - 20220',
+                padding: {
+                    top: 30,
+                    bottom:30
+                }
             }
         }
     }
