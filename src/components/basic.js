@@ -17,15 +17,6 @@ export const GRAPHIC = (ctx, strikes) => new Chart(ctx, {
         ]
     },
     options: {
-        scales: {
-            x: {
-                title: {
-                    color: '#c1121f',
-                    display: true,
-                    text: 'Años'
-                }
-            }
-        },
         animations: {
             tension: {
                 duration: 2000,
