@@ -1,19 +1,39 @@
 export const GRAPHIC = (ctx, strikes) => new Chart(ctx, {
-    type:'bar',
+    type:'line',
     data: {
         labels: strikes.map(a => a.ANIOS),
         datasets: [
             {
                 label: '# Por pliego de reclamos',
                 data: strikes.map(r => r.HUELGAS_PLIEGO_RECLAMOS),
-                backgroundColor: '#ffafcc',
+                backgroundColor: '#00509d',
                 borderWidth: 1,
-                borderColor: '#f28482'
+                borderColor: '#00509d'
             },
-           /* {
+           /*{
                 label: '# Inflación',
-                data: strikes.map(i => i.INFLATION),
+                data: strikes.map(i => Math.round(i.INFLATION)),
             }*/
         ]
+    },
+    options: {
+        scales: {
+            x: {
+                title: {
+                    color: '#c1121f',
+                    display: true,
+                    text: 'Años'
+                }
+            }
+        },
+        animations: {
+            tension: {
+                duration: 2000,
+                easing: 'linear',
+                from: 1,
+                to: 0,
+                loop: true
+            }
+        }
     }
 })
