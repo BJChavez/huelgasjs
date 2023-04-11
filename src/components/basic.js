@@ -17,14 +17,13 @@ export const GRAPHIC = (ctx, strikes) => new Chart(ctx, {
         ]
     },
     options: {
-        events: ['click'],
         plugins: {
             title: {
                 display: true, 
                 text: 'Huelgas en el Perú 1987 - 20220',
                 padding: {
-                    top: 30,
-                    bottom:30
+                    top: 10,
+                    bottom:10
                 }
             }
         }
