@@ -1,5 +1,8 @@
 export const datosAlanFirst = [
     {
+        "ID": "Primer gobierno de Alan"
+    },
+    {
         "FECHA_CORTE": 20230330,
         "ANIOS": 1987,
         "HUELGAS_PLIEGO_RECLAMOS": 222,
@@ -28,3 +31,5 @@ export const datosAlanFirst = [
         "INFLATION": 7481.66361124526
     }
 ]
+
+console.log(datosAlanFirst[0].ID)

@@ -1,5 +1,8 @@
 export const datosPpk = [
     {
+        "ID": "Gobierno de PPK"
+    },
+    {
         "FECHA_CORTE": 20230330,
         "ANIOS": 2016,
         "HUELGAS_PLIEGO_RECLAMOS": 22,

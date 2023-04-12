@@ -1,5 +1,8 @@
 export const datosVizcarra = [
     {
+        "ID": "Gobierno de Vizcarra"
+    },
+    {
         "FECHA_CORTE": 20230330,
         "ANIOS": 2018,
         "HUELGAS_PLIEGO_RECLAMOS": 26,

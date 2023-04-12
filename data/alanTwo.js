@@ -1,5 +1,8 @@
 export const datosAlanTwo = [
     {
+        "ID": "Segundo gobierno de Alan"
+    },
+    {
         "FECHA_CORTE": 20230330,
         "ANIOS": 2006,
         "HUELGAS_PLIEGO_RECLAMOS": 18,

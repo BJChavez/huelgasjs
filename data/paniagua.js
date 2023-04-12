@@ -1,5 +1,8 @@
 export const datosPaniagua = [
     {
+        "ID": "Gobierno de Paniagua"
+    },
+    {
         "FECHA_CORTE": 20230330,
         "ANIOS": 2000,
         "HUELGAS_PLIEGO_RECLAMOS": 15,

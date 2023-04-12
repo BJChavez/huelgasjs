@@ -1,5 +1,8 @@
 export const datosToledo = [
     {
+        "ID": "Gobierno de Toledo"
+    },
+    {
         "FECHA_CORTE": 20230330,
         "ANIOS": 2001,
         "HUELGAS_PLIEGO_RECLAMOS": 8,

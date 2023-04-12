@@ -1,5 +1,8 @@
 export const datosOllanta = [
     {
+        "ID": "Gobierno de Ollanta"
+    },
+    {
         "FECHA_CORTE": 20230330,
         "ANIOS": 2011,
         "HUELGAS_PLIEGO_RECLAMOS": 36,

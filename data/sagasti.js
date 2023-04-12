@@ -1,5 +1,8 @@
 export const datosSagasti = [
     {
+        "ID": "Gobierno de Sagasti"
+    },
+    {
         "FECHA_CORTE": 20230330,
         "ANIOS": 2021,
         "HUELGAS_PLIEGO_RECLAMOS": 25,
