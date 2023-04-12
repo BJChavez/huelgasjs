@@ -1,11 +1,6 @@
-<<<<<<< HEAD
 
 export const cuadroGeneral = (ctx, datosHuelgas) => new Chart(ctx, {
     type:'bar',
-=======
-export const GRAPHIC = (ctx, strikes) => new Chart(ctx, {
-    type:'line',
->>>>>>> principal
     data: {
         labels: datosHuelgas.map(anios => anios.ANIOS),
         datasets: [
