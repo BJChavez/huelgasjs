@@ -1,17 +1,7 @@
 import { chartGeneral } from './components/index.js'
 import { dateStrikes } from '../data/strikes.js'
 
-//----------------- ALL IMPORTS
-import { 
-    dateAlanFirst,  
-    dateAlanTwo, 
-    dateFujimori, 
-    dateOllanta, 
-    datePaniagua, 
-    datePPK, 
-    dateSagasti, 
-    dateToledo, 
-    dateVizcarra } from '../data/presidents.js'
+import {dateAlanFirst, dateAlanTwo, dateFujimori, dateOllanta, datePPK, datePaniagua, dateSagasti, dateToledo, dateVizcarra} from '../data/presidents.js'
 
 
 const ctxGeneral = document.querySelector('#general')

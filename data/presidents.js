@@ -1,3 +1,4 @@
+
 export const dateAlanFirst = [
     {
         "FECHA_CORTE": 20230330,
@@ -324,4 +325,3 @@ export const dateVizcarra = [
         "INFLATION": 2.00241205759293
     }
 ]
-
