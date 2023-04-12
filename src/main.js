@@ -1,6 +1,6 @@
-import { GRAPHIC } from './components/basic.js'
-import { STRIKES } from '../data/strikes.js'
+import { cuadroGeneral } from './components/basic.js'
+import { datosHuelgas } from '../data/huelgas.js'
 
-const ctx = document.querySelector('#container')
+const ctx = document.querySelector('#contenedor')
 
-GRAPHIC(ctx, STRIKES)
+cuadroGeneral(ctx, datosHuelgas)

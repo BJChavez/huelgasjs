@@ -1,4 +1,4 @@
-export const STRIKES = [
+export const datosHuelgas = [
   {
     "FECHA_CORTE": 20230330,
     "ANIOS": 1987,

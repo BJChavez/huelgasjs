@@ -1,11 +1,12 @@
-export const GRAPHIC = (ctx, strikes) => new Chart(ctx, {
+
+export const cuadroGeneral = (ctx, datosHuelgas) => new Chart(ctx, {
     type:'bar',
     data: {
-        labels: strikes.map(a => a.ANIOS),
+        labels: datosHuelgas.map(anios => anios.ANIOS),
         datasets: [
             {
                 label: '# Pliego de reclamos',
-                data: strikes.map(r => r.HUELGAS_PLIEGO_RECLAMOS),
+                data: datosHuelgas.map(pliego => pliego.HUELGAS_PLIEGO_RECLAMOS),
                 backgroundColor: '#00509d',
                 borderWidth: 1,
                 borderColor: '#00509d'
