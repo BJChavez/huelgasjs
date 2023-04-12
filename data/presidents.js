@@ -1,5 +1,6 @@
 
 export const dataAlanFirst = [
+    "Primer gobierno de Alan García",
     {
         "FECHA_CORTE": 20230330,
         "ANIOS": 1987,
@@ -31,6 +32,7 @@ export const dataAlanFirst = [
 ]
 
 export const dataAlanTwo = [
+    "Segundo gobierno de Alan García",
     {
         "FECHA_CORTE": 20230330,
         "ANIOS": 2006,
@@ -76,6 +78,7 @@ export const dataAlanTwo = [
 ]
 
 export const dataFujimori = [
+    "Gobierno de Alberto Fujimori",
     {
         "FECHA_CORTE": 20230330,
         "ANIOS": 1990,
@@ -156,6 +159,7 @@ export const dataFujimori = [
 ]
 
 export const dataOllanta = [
+    "Gobierno de Ollanta Humala",
     {
         "FECHA_CORTE": 20230330,
         "ANIOS": 2011,
@@ -201,6 +205,7 @@ export const dataOllanta = [
 ]
 
 export const dataPaniagua = [
+    "Gobierno de Valentin Paniagua",
     {
         "FECHA_CORTE": 20230330,
         "ANIOS": 2000,
@@ -218,6 +223,7 @@ export const dataPaniagua = [
 ]
 
 export const dataPPK = [
+    "Gobierno de Pedro Pablo",
     {
         "FECHA_CORTE": 20230330,
         "ANIOS": 2016,
@@ -242,6 +248,7 @@ export const dataPPK = [
 ]
 
 export const dataSagasti = [
+    "Gobierno de Francisco Sagasti",
     {
         "FECHA_CORTE": 20230330,
         "ANIOS": 2021,
@@ -258,6 +265,7 @@ export const dataSagasti = [
 ]
 
 export const dataToledo = [
+    "Gobierno de Alejandro Toledo",
     {
         "FECHA_CORTE": 20230330,
         "ANIOS": 2001,
@@ -303,6 +311,7 @@ export const dataToledo = [
 ]
 
 export const dataVizcarra = [
+    "Gobierno de Martín Vizcarra",
     {
         "FECHA_CORTE": 20230330,
         "ANIOS": 2018,
