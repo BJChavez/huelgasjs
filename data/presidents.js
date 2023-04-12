@@ -1,5 +1,5 @@
 
-export const dateAlanFirst = [
+export const dataAlanFirst = [
     {
         "FECHA_CORTE": 20230330,
         "ANIOS": 1987,
@@ -30,7 +30,7 @@ export const dateAlanFirst = [
     }
 ]
 
-export const dateAlanTwo = [
+export const dataAlanTwo = [
     {
         "FECHA_CORTE": 20230330,
         "ANIOS": 2006,
@@ -75,7 +75,7 @@ export const dateAlanTwo = [
     }
 ]
 
-export const dateFujimori = [
+export const dataFujimori = [
     {
         "FECHA_CORTE": 20230330,
         "ANIOS": 1990,
@@ -155,7 +155,7 @@ export const dateFujimori = [
     }
 ]
 
-export const dateOllanta = [
+export const dataOllanta = [
     {
         "FECHA_CORTE": 20230330,
         "ANIOS": 2011,
@@ -200,7 +200,7 @@ export const dateOllanta = [
     }
 ]
 
-export const datePaniagua = [
+export const dataPaniagua = [
     {
         "FECHA_CORTE": 20230330,
         "ANIOS": 2000,
@@ -217,7 +217,7 @@ export const datePaniagua = [
     }
 ]
 
-export const datePPK = [
+export const dataPPK = [
     {
         "FECHA_CORTE": 20230330,
         "ANIOS": 2016,
@@ -241,7 +241,7 @@ export const datePPK = [
     }
 ]
 
-export const dateSagasti = [
+export const dataSagasti = [
     {
         "FECHA_CORTE": 20230330,
         "ANIOS": 2021,
@@ -257,7 +257,7 @@ export const dateSagasti = [
     }
 ]
 
-export const dateToledo = [
+export const dataToledo = [
     {
         "FECHA_CORTE": 20230330,
         "ANIOS": 2001,
@@ -302,7 +302,7 @@ export const dateToledo = [
     }
 ]
 
-export const dateVizcarra = [
+export const dataVizcarra = [
     {
         "FECHA_CORTE": 20230330,
         "ANIOS": 2018,
