@@ -1,4 +1,4 @@
-export const TOLEDO = [
+export const datosToledo = [
     {
         "FECHA_CORTE": 20230330,
         "ANIOS": 2001,

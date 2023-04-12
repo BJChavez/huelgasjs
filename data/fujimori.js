@@ -1,4 +1,4 @@
-export const FUJIMORI = [
+export const datosFujimori = [
     {
         "FECHA_CORTE": 20230330,
         "ANIOS": 1990,

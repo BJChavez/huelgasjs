@@ -1,4 +1,4 @@
-export const VIZCARRA = [
+export const datosVizcarra = [
     {
         "FECHA_CORTE": 20230330,
         "ANIOS": 2018,

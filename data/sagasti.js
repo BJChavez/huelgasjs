@@ -1,4 +1,4 @@
-export const SAGASTI = [
+export const datosSagasti = [
     {
         "FECHA_CORTE": 20230330,
         "ANIOS": 2021,

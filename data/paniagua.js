@@ -1,4 +1,4 @@
-export const PANIAGUA = [
+export const datosPaniagua = [
     {
         "FECHA_CORTE": 20230330,
         "ANIOS": 2000,

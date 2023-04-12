@@ -1,4 +1,4 @@
-export const ALAN_FIRST = [
+export const datosAlanFirst = [
     {
         "FECHA_CORTE": 20230330,
         "ANIOS": 1987,
