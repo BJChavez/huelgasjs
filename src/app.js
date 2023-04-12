@@ -1,14 +1,18 @@
 import { chartGeneral } from './components/index.js'
 import { dateStrikes } from '../data/strikes.js'
-import { dateAlanFirst } from '../data/alanFirst.js'
-import { dateAlanTwo } from '../data/alanTwo.js'
-import { dateFujimori } from '../data/fujimori.js'
-import { dateOllanta } from '../data/ollanta.js'
-import { datePaniagua } from '../data/paniagua.js'
-import { datePPK } from '../data/ppk.js'
-import { dateSagasti } from '../data/sagasti.js'
-import { dateToledo } from '../data/toledo.js'
-import { dateVizcarra } from '../data/vizcarra.js'
+
+//----------------- ALL IMPORTS
+import { 
+    dateAlanFirst,  
+    dateAlanTwo, 
+    dateFujimori, 
+    dateOllanta, 
+    datePaniagua, 
+    datePPK, 
+    dateSagasti, 
+    dateToledo, 
+    dateVizcarra } from '../data/presidents.js'
+
 
 const ctxGeneral = document.querySelector('#general')
 const ctxAlan1 = document.querySelector('#alan1')
