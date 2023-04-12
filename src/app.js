@@ -1,7 +1,7 @@
 import { chartGeneral } from './components/index.js'
-import { dateStrikes } from '../data/strikes.js'
+import { dataStrikes } from '../data/strikes.js'
 
-import {dateAlanFirst, dateAlanTwo, dateFujimori, dateOllanta, datePPK, datePaniagua, dateSagasti, dateToledo, dateVizcarra} from '../data/presidents.js'
+import {dataAlanFirst, dataAlanTwo, dataFujimori, dataOllanta, dataPPK, dataPaniagua, dataSagasti, dataToledo, dataVizcarra} from '../data/presidents.js'
 
 
 const ctxGeneral = document.querySelector('#general')
@@ -15,13 +15,13 @@ const ctxPPK = document.querySelector('#ppk')
 const ctxVizcarra = document.querySelector('#vizcarra')
 const ctxSagasti = document.querySelector('#sagasti')
 
-chartGeneral(ctxGeneral, dateStrikes)
-chartGeneral(ctxAlan1, dateAlanFirst)
-chartGeneral(ctxFujimori, dateFujimori)
-chartGeneral(ctxPaniagua, datePaniagua)
-chartGeneral(ctxToledo, dateToledo)
-chartGeneral(ctxAlan2, dateAlanTwo)
-chartGeneral(ctxOllanta, dateOllanta)
-chartGeneral(ctxPPK, datePPK)
-chartGeneral(ctxVizcarra, dateVizcarra)
-chartGeneral(ctxSagasti, dateSagasti)
+chartGeneral(ctxGeneral, dataStrikes)
+chartGeneral(ctxAlan1, dataAlanFirst, dataAlanFirst[0])
+chartGeneral(ctxFujimori, dataFujimori, dataFujimori[0])
+chartGeneral(ctxPaniagua, dataPaniagua, dataPaniagua[0])
+chartGeneral(ctxToledo, dataToledo, dataToledo[0])
+chartGeneral(ctxAlan2, dataAlanTwo, dataAlanTwo[0])
+chartGeneral(ctxOllanta, dataOllanta, dataOllanta[0])
+chartGeneral(ctxPPK, dataPPK, dataPPK[0])
+chartGeneral(ctxVizcarra, dataVizcarra, dataVizcarra[0])
+chartGeneral(ctxSagasti, dataSagasti, dataSagasti[0])
