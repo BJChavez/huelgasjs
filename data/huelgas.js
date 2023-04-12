@@ -1,5 +1,8 @@
 export const datosHuelgas = [
   {
+    "ID": "Datos generales"
+  },
+  {
     "FECHA_CORTE": 20230330,
     "ANIOS": 1987,
     "HUELGAS_PLIEGO_RECLAMOS": 222,
