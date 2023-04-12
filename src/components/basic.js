@@ -1,5 +1,5 @@
 export const GRAPHIC = (ctx, strikes) => new Chart(ctx, {
-    type:'bar',
+    type:'line',
     data: {
         labels: strikes.map(a => a.ANIOS),
         datasets: [
