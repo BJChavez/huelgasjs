@@ -1,7 +1,4 @@
-export const datosOllanta = [
-    {
-        "ID": "Gobierno de Ollanta"
-    },
+export const dateOllanta = [
     {
         "FECHA_CORTE": 20230330,
         "ANIOS": 2011,

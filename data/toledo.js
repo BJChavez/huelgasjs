@@ -1,7 +1,4 @@
-export const datosToledo = [
-    {
-        "ID": "Gobierno de Toledo"
-    },
+export const dateToledo = [
     {
         "FECHA_CORTE": 20230330,
         "ANIOS": 2001,

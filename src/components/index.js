@@ -1,12 +1,12 @@
 
-export const cuadroGeneral = (ctx, datosHuelgas, titulo) => new Chart(ctx, {
-    type:'bar',
+export const chartGeneral = (ctx, strikes, title) => new Chart(ctx, {
+    type:'line',
     data: {
-        labels: datosHuelgas.map(anios => anios.ANIOS),
+        labels: strikes.map(a => a.ANIOS),
         datasets: [
             {
                 label: '# Pliego de reclamos',
-                data: datosHuelgas.map(pliego => pliego.HUELGAS_PLIEGO_RECLAMOS),
+                data: strikes.map(p => p.HUELGAS_PLIEGO_RECLAMOS),
                 backgroundColor: '#00509d',
                 borderWidth: 1,
                 borderColor: '#00509d'
@@ -17,7 +17,7 @@ export const cuadroGeneral = (ctx, datosHuelgas, titulo) => new Chart(ctx, {
         plugins: {
             title: {
                 display: true, 
-                text: titulo,
+                text: title,
                 padding: {
                     top: 10,
                     bottom:10

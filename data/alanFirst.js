@@ -1,7 +1,4 @@
-export const datosAlanFirst = [
-    {
-        "ID": "Primer gobierno de Alan"
-    },
+export const dateAlanFirst = [
     {
         "FECHA_CORTE": 20230330,
         "ANIOS": 1987,
@@ -31,5 +28,3 @@ export const datosAlanFirst = [
         "INFLATION": 7481.66361124526
     }
 ]
-
-console.log(datosAlanFirst[0].ID)

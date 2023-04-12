@@ -1,7 +1,4 @@
-export const datosAlanTwo = [
-    {
-        "ID": "Segundo gobierno de Alan"
-    },
+export const dateAlanTwo = [
     {
         "FECHA_CORTE": 20230330,
         "ANIOS": 2006,

@@ -1,7 +1,4 @@
-export const datosHuelgas = [
-  //{
-   // "ID": "Datos generales"
-  //},
+export const dateStrikes = [
   {
     "FECHA_CORTE": 20230330,
     "ANIOS": 1987,

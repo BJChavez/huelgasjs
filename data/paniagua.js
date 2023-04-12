@@ -1,7 +1,4 @@
-export const datosPaniagua = [
-    {
-        "ID": "Gobierno de Paniagua"
-    },
+export const datePaniagua = [
     {
         "FECHA_CORTE": 20230330,
         "ANIOS": 2000,

@@ -1,7 +1,4 @@
-export const datosPpk = [
-    {
-        "ID": "Gobierno de PPK"
-    },
+export const datePPK = [
     {
         "FECHA_CORTE": 20230330,
         "ANIOS": 2016,

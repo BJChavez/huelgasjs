@@ -1,7 +1,4 @@
-export const datosFujimori = [
-    {
-        "ID": "Gobierno de Fujimori"
-    },
+export const dateFujimori = [
     {
         "FECHA_CORTE": 20230330,
         "ANIOS": 1990,

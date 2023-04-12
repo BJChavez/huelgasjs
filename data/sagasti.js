@@ -1,7 +1,4 @@
-export const datosSagasti = [
-    {
-        "ID": "Gobierno de Sagasti"
-    },
+export const dateSagasti = [
     {
         "FECHA_CORTE": 20230330,
         "ANIOS": 2021,
