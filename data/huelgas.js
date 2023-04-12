@@ -1,7 +1,7 @@
 export const datosHuelgas = [
-  {
-    "ID": "Datos generales"
-  },
+  //{
+   // "ID": "Datos generales"
+  //},
   {
     "FECHA_CORTE": 20230330,
     "ANIOS": 1987,

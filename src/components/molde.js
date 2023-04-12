@@ -1,6 +1,6 @@
 
 export const cuadroGeneral = (ctx, datosHuelgas, titulo) => new Chart(ctx, {
-    type:'line',
+    type:'bar',
     data: {
         labels: datosHuelgas.map(anios => anios.ANIOS),
         datasets: [
@@ -22,6 +22,11 @@ export const cuadroGeneral = (ctx, datosHuelgas, titulo) => new Chart(ctx, {
                     top: 10,
                     bottom:10
                 }
+            }
+        },
+        scales: {
+            y: {
+                beginAtZero: true
             }
         }
     }
