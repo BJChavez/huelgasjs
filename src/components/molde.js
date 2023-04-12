@@ -1,6 +1,6 @@
 
-export const cuadroGeneral = (ctx, datosHuelgas) => new Chart(ctx, {
-    type:'bar',
+export const cuadroGeneral = (ctx, datosHuelgas, titulo) => new Chart(ctx, {
+    type:'line',
     data: {
         labels: datosHuelgas.map(anios => anios.ANIOS),
         datasets: [
@@ -10,18 +10,14 @@ export const cuadroGeneral = (ctx, datosHuelgas) => new Chart(ctx, {
                 backgroundColor: '#00509d',
                 borderWidth: 1,
                 borderColor: '#00509d'
-            },
-           /*{
-                label: '# Inflación',
-                data: strikes.map(i => Math.round(i.INFLATION)),
-            }*/
+            }
         ]
     },
     options: {
         plugins: {
             title: {
                 display: true, 
-                text: 'Huelgas en el Perú 1987 - 20220',
+                text: titulo,
                 padding: {
                     top: 10,
                     bottom:10
