@@ -13,7 +13,7 @@ export const chartGeneral = (ctx, strikes, title) => new Chart(ctx, {
             },
             {
                 label: '# Otras causas',
-                data: strikes.map(p => p.HUELGAS_OTRAS_CAUSAS),
+                data: strikes.options,
                 backgroundColor: '#ef233c',
                 borderWidth: 1,
                 borderColor: '#ef233c'
