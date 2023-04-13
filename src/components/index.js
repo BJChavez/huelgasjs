@@ -8,16 +8,16 @@ export const chartGeneral = (ctx, option, title) => new Chart(ctx, {
             {
                 label: '# Pliego de reclamos',
                 data: option.map(p => p.HUELGAS_PLIEGO_RECLAMOS),
-                backgroundColor: '#00509d',
+                backgroundColor: '#f0c808',
                 borderWidth: 1,
-                borderColor: '#00509d'
+                borderColor: '#f0c808'
             },
             {
                 label: '# Otras causas',
                 data: option.map(c => c.HUELGAS_OTRAS_CAUSAS),
-                backgroundColor: '#ef233c',
+                backgroundColor: '#004e89',
                 borderWidth: 1,
-                borderColor: '#ef233c'
+                borderColor: '#004e89'
             }
         ]
     },
@@ -36,6 +36,7 @@ export const chartGeneral = (ctx, option, title) => new Chart(ctx, {
             y: {
                 beginAtZero: true
             }
-        }
+        },
+        responsive: true
     }
 })
