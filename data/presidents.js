@@ -233,7 +233,7 @@ export const dataPaniagua = {
 }
 
 export const dataPPK = {
-    "title": "Gobierno de Pedro Pablo",
+    "title": "Gobierno de Pedro Pablo Kuczynski",
     "options": [
         {
             "FECHA_CORTE": 20230330,
