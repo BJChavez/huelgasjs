@@ -1,6 +1,5 @@
 
 export const dataAlanFirst = {
-    //"id": 1,
     "title": "Primer gobierno de Alan García",
     "options": [
         {
@@ -35,7 +34,6 @@ export const dataAlanFirst = {
 }
 
 export const dataAlanTwo = {
-   // "id": 2,
     "title": "Segundo gobierno de Alan García",
     "options": [
         {
@@ -84,7 +82,6 @@ export const dataAlanTwo = {
 }
 
 export const dataFujimori = {
-    //"id": 3,
     "title": "Gobierno de Alberto Fujimori",
     "options": [
         {
@@ -168,7 +165,6 @@ export const dataFujimori = {
 }
 
 export const dataOllanta = {
-    //"id": 4,
     "title": "Gobierno de Ollanta Humala",
     "options": [
         {
@@ -217,7 +213,6 @@ export const dataOllanta = {
 }
 
 export const dataPaniagua = {
-    //"id": 5, 
     "title": "Gobierno de Valentin Paniagua",
     "options": [
         {
@@ -238,7 +233,6 @@ export const dataPaniagua = {
 }
 
 export const dataPPK = {
-    //"id": 6,
     "title": "Gobierno de Pedro Pablo",
     "options": [
         {
@@ -266,7 +260,6 @@ export const dataPPK = {
 }
 
 export const dataSagasti = {
-    //"id": 7,
     "title": "Gobierno de Francisco Sagasti",
     "options": [
         {
@@ -286,7 +279,6 @@ export const dataSagasti = {
 }
 
 export const dataToledo = {
-    //"id": 8,
     "title": "Gobierno de Alejandro Toledo",
     "options": [
         {
@@ -335,7 +327,6 @@ export const dataToledo = {
 }
 
 export const dataVizcarra = {
-    //"id": 9,
     "title": "Gobierno de Martín Vizcarra",
     "options": [
         {

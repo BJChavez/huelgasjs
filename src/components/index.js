@@ -1,19 +1,20 @@
 
-export const chartGeneral = (ctx, strikes, title) => new Chart(ctx, {
-    type:'line',
+export const chartGeneral = (ctx, option, title) => new Chart(ctx, {
+
+    type: 'line',
     data: {
-        labels: strikes.map(a => a.ANIOS),
+        labels: option.map(a => a.ANIOS),
         datasets: [
             {
                 label: '# Pliego de reclamos',
-                data: strikes.map(p => p.HUELGAS_PLIEGO_RECLAMOS),
+                data: option.map(p => p.HUELGAS_PLIEGO_RECLAMOS),
                 backgroundColor: '#00509d',
                 borderWidth: 1,
                 borderColor: '#00509d'
             },
             {
                 label: '# Otras causas',
-                data: strikes.options,
+                data: option.map(c => c.HUELGAS_OTRAS_CAUSAS),
                 backgroundColor: '#ef233c',
                 borderWidth: 1,
                 borderColor: '#ef233c'
@@ -23,11 +24,11 @@ export const chartGeneral = (ctx, strikes, title) => new Chart(ctx, {
     options: {
         plugins: {
             title: {
-                display: true, 
+                display: true,
                 text: title,
                 padding: {
                     top: 10,
-                    bottom:10
+                    bottom: 10
                 }
             }
         },
