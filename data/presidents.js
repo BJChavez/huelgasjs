@@ -1,6 +1,7 @@
 
 export const dataAlanFirst = {
     "title": "Primer gobierno de Alan García",
+    "ide":"alan1",
     "options": [
         {
             "FECHA_CORTE": 20230330,
@@ -35,6 +36,7 @@ export const dataAlanFirst = {
 
 export const dataAlanTwo = {
     "title": "Segundo gobierno de Alan García",
+    "ide": "alan2",
     "options": [
         {
             "FECHA_CORTE": 20230330,
@@ -83,6 +85,7 @@ export const dataAlanTwo = {
 
 export const dataFujimori = {
     "title": "Gobierno de Alberto Fujimori",
+    "ide": "fujimori",
     "options": [
         {
             "FECHA_CORTE": 20230330,
@@ -166,6 +169,7 @@ export const dataFujimori = {
 
 export const dataOllanta = {
     "title": "Gobierno de Ollanta Humala",
+    "ide": "ollanta",
     "options": [
         {
             "FECHA_CORTE": 20230330,
@@ -214,6 +218,7 @@ export const dataOllanta = {
 
 export const dataPaniagua = {
     "title": "Gobierno de Valentin Paniagua",
+    "ide": "paniagua",
     "options": [
         {
             "FECHA_CORTE": 20230330,
@@ -234,6 +239,7 @@ export const dataPaniagua = {
 
 export const dataPPK = {
     "title": "Gobierno de Pedro Pablo Kuczynski",
+    "ide": "ppk",
     "options": [
         {
             "FECHA_CORTE": 20230330,
@@ -261,6 +267,7 @@ export const dataPPK = {
 
 export const dataSagasti = {
     "title": "Gobierno de Francisco Sagasti",
+    "ide": "sagasti",
     "options": [
         {
             "FECHA_CORTE": 20230330,
@@ -280,6 +287,7 @@ export const dataSagasti = {
 
 export const dataToledo = {
     "title": "Gobierno de Alejandro Toledo",
+    "ide": "toledo",
     "options": [
         {
             "FECHA_CORTE": 20230330,
@@ -328,6 +336,7 @@ export const dataToledo = {
 
 export const dataVizcarra = {
     "title": "Gobierno de Martín Vizcarra",
+    "ide": "vizcarra",
     "options": [
         {
             "FECHA_CORTE": 20230330,
