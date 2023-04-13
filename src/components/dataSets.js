@@ -6,17 +6,17 @@ export const data = (option) => {
             {
                 label: '# Pliego de reclamos',
                 data: option.map(p => p.HUELGAS_PLIEGO_RECLAMOS),
-                backgroundColor: '#f0c808',
+                backgroundColor: '#005f73',
                 borderWidth: 1,
-                borderColor: '#f0c808',
+                borderColor: '#005f73',
                 yAxisID: 'y'
             },
             {
-                label: '# Otras causas',
-                data: option.map(c => c.HUELGAS_OTRAS_CAUSAS),
-                backgroundColor: '#004e89',
+                label: '% Inflacion',
+                data: option.map(c => parseInt(Math.round(c.INFLATION))),
+                backgroundColor: '#c1121f',
                 borderWidth: 1,
-                borderColor: '#004e89',
+                borderColor: '#c1121f',
                 yAxisID: 'y1'
             }
         ]
