@@ -27,7 +27,7 @@ export const chartGeneral = (ctx, option, title) => new Chart(ctx, {
                 display: true,
                 text: title,
                 padding: {
-                    top: 10,
+                    top: 30,
                     bottom: 10
                 }
             }
