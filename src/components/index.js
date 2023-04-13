@@ -1,26 +1,9 @@
+import { data } from './dataSets.js'
 
 export const chartGeneral = (ctx, option, title) => new Chart(ctx, {
 
     type: 'line',
-    data: {
-        labels: option.map(a => a.ANIOS),
-        datasets: [
-            {
-                label: '# Pliego de reclamos',
-                data: option.map(p => p.HUELGAS_PLIEGO_RECLAMOS),
-                backgroundColor: '#f0c808',
-                borderWidth: 1,
-                borderColor: '#f0c808'
-            },
-            {
-                label: '# Otras causas',
-                data: option.map(c => c.HUELGAS_OTRAS_CAUSAS),
-                backgroundColor: '#004e89',
-                borderWidth: 1,
-                borderColor: '#004e89'
-            }
-        ]
-    },
+    data: data(option),
     options: {
         plugins: {
             title: {
@@ -34,7 +17,12 @@ export const chartGeneral = (ctx, option, title) => new Chart(ctx, {
         },
         scales: {
             y: {
-                beginAtZero: true
+                beginAtZero: true,
+                position: 'left'
+            },
+            y1: {
+                beginAtZero: true,
+                position: 'right'
             }
         },
         responsive: true
