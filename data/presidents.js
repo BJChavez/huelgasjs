@@ -34,56 +34,6 @@ export const dataAlanFirst = {
     ]
 }
 
-
-export const dataAlanTwo = {
-    title: "Segundo gobierno de Alan García",
-    ide: "alan2",
-    options: [
-        {
-            "FECHA_CORTE": 20230330,
-            "ANIOS": 2006,
-            "HUELGAS_PLIEGO_RECLAMOS": 18,
-            "HUELGAS_OTRAS_CAUSAS": 49,
-            "INFLATION": 2.00225801248821
-        },
-        {
-            "FECHA_CORTE": 20230330,
-            "ANIOS": 2007,
-            "HUELGAS_PLIEGO_RECLAMOS": 20,
-            "HUELGAS_OTRAS_CAUSAS": 53,
-            "INFLATION": 1.77998644680372
-        },
-        {
-            "FECHA_CORTE": 20230330,
-            "ANIOS": 2008,
-            "HUELGAS_PLIEGO_RECLAMOS": 20,
-            "HUELGAS_OTRAS_CAUSAS": 43,
-            "INFLATION": 5.78587598206754
-        },
-        {
-            "FECHA_CORTE": 20230330,
-            "ANIOS": 2009,
-            "HUELGAS_PLIEGO_RECLAMOS": 40,
-            "HUELGAS_OTRAS_CAUSAS": 59,
-            "INFLATION": 2.93623153596699
-        },
-        {
-            "FECHA_CORTE": 20230330,
-            "ANIOS": 2010,
-            "HUELGAS_PLIEGO_RECLAMOS": 32,
-            "HUELGAS_OTRAS_CAUSAS": 51,
-            "INFLATION": 1.52832059732903
-        },
-        {
-            "FECHA_CORTE": 20230330,
-            "ANIOS": 2011,
-            "HUELGAS_PLIEGO_RECLAMOS": 36,
-            "HUELGAS_OTRAS_CAUSAS": 48,
-            "INFLATION": 3.36931095333853
-        }
-    ]
-}
-
 export const dataFujimori = {
     title: "Gobierno de Alberto Fujimori",
     ide: "fujimori",
@@ -168,55 +118,6 @@ export const dataFujimori = {
     ]
 }
 
-export const dataOllanta = {
-    title: "Gobierno de Ollanta Humala",
-    ide: "ollanta",
-    options: [
-        {
-            "FECHA_CORTE": 20230330,
-            "ANIOS": 2011,
-            "HUELGAS_PLIEGO_RECLAMOS": 36,
-            "HUELGAS_OTRAS_CAUSAS": 48,
-            "INFLATION": 3.36931095333853
-        },
-        {
-            "FECHA_CORTE": 20230330,
-            "ANIOS": 2012,
-            "HUELGAS_PLIEGO_RECLAMOS": 33,
-            "HUELGAS_OTRAS_CAUSAS": 56,
-            "INFLATION": 3.61121294940175
-        },
-        {
-            "FECHA_CORTE": 20230330,
-            "ANIOS": 2013,
-            "HUELGAS_PLIEGO_RECLAMOS": 44,
-            "HUELGAS_OTRAS_CAUSAS": 50,
-            "INFLATION": 2.76789666081994
-        },
-        {
-            "FECHA_CORTE": 20230330,
-            "ANIOS": 2014,
-            "HUELGAS_PLIEGO_RECLAMOS": 45,
-            "HUELGAS_OTRAS_CAUSAS": 50,
-            "INFLATION": 3.4119457980747
-        },
-        {
-            "FECHA_CORTE": 20230330,
-            "ANIOS": 2015,
-            "HUELGAS_PLIEGO_RECLAMOS": 25,
-            "HUELGAS_OTRAS_CAUSAS": 22,
-            "INFLATION": 3.39809194746299
-        },
-        {
-            "FECHA_CORTE": 20230330,
-            "ANIOS": 2016,
-            "HUELGAS_PLIEGO_RECLAMOS": 22,
-            "HUELGAS_OTRAS_CAUSAS": 19,
-            "INFLATION": 3.55717663556281
-        }
-    ]
-}
-
 export const dataPaniagua = {
     title: "Gobierno de Valentin Paniagua",
     ide: "paniagua",
@@ -234,54 +135,6 @@ export const dataPaniagua = {
             "HUELGAS_PLIEGO_RECLAMOS": 8,
             "HUELGAS_OTRAS_CAUSAS": 32,
             "INFLATION": 1.97709878502052
-        }
-    ]
-}
-
-export const dataPPK = {
-    title: "Gobierno de Pedro Pablo Kuczynski",
-    ide: "ppk",
-    options: [
-        {
-            "FECHA_CORTE": 20230330,
-            "ANIOS": 2016,
-            "HUELGAS_PLIEGO_RECLAMOS": 22,
-            "HUELGAS_OTRAS_CAUSAS": 19,
-            "INFLATION": 3.55717663556281
-        },
-        {
-            "FECHA_CORTE": 20230330,
-            "ANIOS": 2017,
-            "HUELGAS_PLIEGO_RECLAMOS": 17,
-            "HUELGAS_OTRAS_CAUSAS": 28,
-            "INFLATION": 2.99490045809446
-        },
-        {
-            "FECHA_CORTE": 20230330,
-            "ANIOS": 2018,
-            "HUELGAS_PLIEGO_RECLAMOS": 26,
-            "HUELGAS_OTRAS_CAUSAS": 28,
-            "INFLATION": 1.50915423024742
-        }
-    ]
-}
-
-export const dataSagasti = {
-    title: "Gobierno de Francisco Sagasti",
-    ide: "sagasti",
-    options: [
-        {
-            "FECHA_CORTE": 20230330,
-            "ANIOS": 2021,
-            "HUELGAS_PLIEGO_RECLAMOS": 25,
-            "HUELGAS_OTRAS_CAUSAS": 13,
-            "INFLATION": 4.27166381536796
-        },
-        {
-            "FECHA_CORTE": 20230330,
-            "ANIOS": 2022,
-            "HUELGAS_PLIEGO_RECLAMOS": 23,
-            "HUELGAS_OTRAS_CAUSAS": 18
         }
     ]
 }
@@ -335,6 +188,134 @@ export const dataToledo = {
     ]
 }
 
+export const dataAlanTwo = {
+    title: "Segundo gobierno de Alan García",
+    ide: "alan2",
+    options: [
+        {
+            "FECHA_CORTE": 20230330,
+            "ANIOS": 2006,
+            "HUELGAS_PLIEGO_RECLAMOS": 18,
+            "HUELGAS_OTRAS_CAUSAS": 49,
+            "INFLATION": 2.00225801248821
+        },
+        {
+            "FECHA_CORTE": 20230330,
+            "ANIOS": 2007,
+            "HUELGAS_PLIEGO_RECLAMOS": 20,
+            "HUELGAS_OTRAS_CAUSAS": 53,
+            "INFLATION": 1.77998644680372
+        },
+        {
+            "FECHA_CORTE": 20230330,
+            "ANIOS": 2008,
+            "HUELGAS_PLIEGO_RECLAMOS": 20,
+            "HUELGAS_OTRAS_CAUSAS": 43,
+            "INFLATION": 5.78587598206754
+        },
+        {
+            "FECHA_CORTE": 20230330,
+            "ANIOS": 2009,
+            "HUELGAS_PLIEGO_RECLAMOS": 40,
+            "HUELGAS_OTRAS_CAUSAS": 59,
+            "INFLATION": 2.93623153596699
+        },
+        {
+            "FECHA_CORTE": 20230330,
+            "ANIOS": 2010,
+            "HUELGAS_PLIEGO_RECLAMOS": 32,
+            "HUELGAS_OTRAS_CAUSAS": 51,
+            "INFLATION": 1.52832059732903
+        },
+        {
+            "FECHA_CORTE": 20230330,
+            "ANIOS": 2011,
+            "HUELGAS_PLIEGO_RECLAMOS": 36,
+            "HUELGAS_OTRAS_CAUSAS": 48,
+            "INFLATION": 3.36931095333853
+        }
+    ]
+}
+
+
+export const dataOllanta = {
+    title: "Gobierno de Ollanta Humala",
+    ide: "ollanta",
+    options: [
+        {
+            "FECHA_CORTE": 20230330,
+            "ANIOS": 2011,
+            "HUELGAS_PLIEGO_RECLAMOS": 36,
+            "HUELGAS_OTRAS_CAUSAS": 48,
+            "INFLATION": 3.36931095333853
+        },
+        {
+            "FECHA_CORTE": 20230330,
+            "ANIOS": 2012,
+            "HUELGAS_PLIEGO_RECLAMOS": 33,
+            "HUELGAS_OTRAS_CAUSAS": 56,
+            "INFLATION": 3.61121294940175
+        },
+        {
+            "FECHA_CORTE": 20230330,
+            "ANIOS": 2013,
+            "HUELGAS_PLIEGO_RECLAMOS": 44,
+            "HUELGAS_OTRAS_CAUSAS": 50,
+            "INFLATION": 2.76789666081994
+        },
+        {
+            "FECHA_CORTE": 20230330,
+            "ANIOS": 2014,
+            "HUELGAS_PLIEGO_RECLAMOS": 45,
+            "HUELGAS_OTRAS_CAUSAS": 50,
+            "INFLATION": 3.4119457980747
+        },
+        {
+            "FECHA_CORTE": 20230330,
+            "ANIOS": 2015,
+            "HUELGAS_PLIEGO_RECLAMOS": 25,
+            "HUELGAS_OTRAS_CAUSAS": 22,
+            "INFLATION": 3.39809194746299
+        },
+        {
+            "FECHA_CORTE": 20230330,
+            "ANIOS": 2016,
+            "HUELGAS_PLIEGO_RECLAMOS": 22,
+            "HUELGAS_OTRAS_CAUSAS": 19,
+            "INFLATION": 3.55717663556281
+        }
+    ]
+}
+
+
+export const dataPPK = {
+    title: "Gobierno de Pedro Pablo Kuczynski",
+    ide: "ppk",
+    options: [
+        {
+            "FECHA_CORTE": 20230330,
+            "ANIOS": 2016,
+            "HUELGAS_PLIEGO_RECLAMOS": 22,
+            "HUELGAS_OTRAS_CAUSAS": 19,
+            "INFLATION": 3.55717663556281
+        },
+        {
+            "FECHA_CORTE": 20230330,
+            "ANIOS": 2017,
+            "HUELGAS_PLIEGO_RECLAMOS": 17,
+            "HUELGAS_OTRAS_CAUSAS": 28,
+            "INFLATION": 2.99490045809446
+        },
+        {
+            "FECHA_CORTE": 20230330,
+            "ANIOS": 2018,
+            "HUELGAS_PLIEGO_RECLAMOS": 26,
+            "HUELGAS_OTRAS_CAUSAS": 28,
+            "INFLATION": 1.50915423024742
+        }
+    ]
+}
+
 export const dataVizcarra = {
     title: "Gobierno de Martín Vizcarra",
     ide: "vizcarra",
@@ -362,4 +343,25 @@ export const dataVizcarra = {
         }
     ]
 }
+
+export const dataSagasti = {
+    title: "Gobierno de Francisco Sagasti",
+    ide: "sagasti",
+    options: [
+        {
+            "FECHA_CORTE": 20230330,
+            "ANIOS": 2021,
+            "HUELGAS_PLIEGO_RECLAMOS": 25,
+            "HUELGAS_OTRAS_CAUSAS": 13,
+            "INFLATION": 4.27166381536796
+        },
+        {
+            "FECHA_CORTE": 20230330,
+            "ANIOS": 2022,
+            "HUELGAS_PLIEGO_RECLAMOS": 23,
+            "HUELGAS_OTRAS_CAUSAS": 18
+        }
+    ]
+}
+
 
