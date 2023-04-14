@@ -14,7 +14,16 @@ import {dataAlanFirst, dataAlanTwo, dataFujimori, dataOllanta, dataPPK, dataPani
 //const ctxSagasti = document.querySelector('#sagasti').getContext('2d')
 
 //const arraysCtx = [ctxAlan1, ctxFujimori, ctxPaniagua, ctxToledo, ctxAlan2, ctxOllanta, ctxPPK, ctxVizcarra, ctxSagasti]
-const arraysData = [dataAlanFirst, dataAlanTwo, dataFujimori, dataOllanta, dataPPK, dataPaniagua, dataSagasti, dataToledo, dataVizcarra]
+const arraysData = [
+    dataAlanFirst,
+    dataFujimori,
+    dataPaniagua,
+    dataToledo, 
+    dataAlanTwo, 
+    dataOllanta, 
+    dataPPK,
+    dataVizcarra,
+    dataSagasti,]
 
 
 const containerG = document.querySelector('#containerG')
@@ -28,9 +37,10 @@ function cChart(){
         newCanvas.setAttribute('id', e.ide)
 
         newDiv.append(newCanvas)
-        const newContext = containerG.append(newDiv)
+        containerG.append(newDiv)
 
-        console.log(e.options)
+        chartGeneral(newCanvas.id, e.options, e.title)
+        console.log(newCanvas.id)
     });   
 }
 

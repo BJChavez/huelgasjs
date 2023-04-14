@@ -1,8 +1,8 @@
 
 export const dataAlanFirst = {
-    "title": "Primer gobierno de Alan García",
-    "ide":"alan1",
-    "options": [
+    title: "Primer gobierno de Alan García",
+    ide:"alan1",
+    options: [
         {
             "FECHA_CORTE": 20230330,
             "ANIOS": 1987,
@@ -36,9 +36,9 @@ export const dataAlanFirst = {
 
 
 export const dataAlanTwo = {
-    "title": "Segundo gobierno de Alan García",
-    "ide": "alan2",
-    "options": [
+    title: "Segundo gobierno de Alan García",
+    ide: "alan2",
+    options: [
         {
             "FECHA_CORTE": 20230330,
             "ANIOS": 2006,
@@ -85,9 +85,9 @@ export const dataAlanTwo = {
 }
 
 export const dataFujimori = {
-    "title": "Gobierno de Alberto Fujimori",
-    "ide": "fujimori",
-    "options": [
+    title: "Gobierno de Alberto Fujimori",
+    ide: "fujimori",
+    options: [
         {
             "FECHA_CORTE": 20230330,
             "ANIOS": 1990,
@@ -169,9 +169,9 @@ export const dataFujimori = {
 }
 
 export const dataOllanta = {
-    "title": "Gobierno de Ollanta Humala",
-    "ide": "ollanta",
-    "options": [
+    title: "Gobierno de Ollanta Humala",
+    ide: "ollanta",
+    options: [
         {
             "FECHA_CORTE": 20230330,
             "ANIOS": 2011,
@@ -218,9 +218,9 @@ export const dataOllanta = {
 }
 
 export const dataPaniagua = {
-    "title": "Gobierno de Valentin Paniagua",
-    "ide": "paniagua",
-    "options": [
+    title: "Gobierno de Valentin Paniagua",
+    ide: "paniagua",
+    options: [
         {
             "FECHA_CORTE": 20230330,
             "ANIOS": 2000,
@@ -239,9 +239,9 @@ export const dataPaniagua = {
 }
 
 export const dataPPK = {
-    "title": "Gobierno de Pedro Pablo Kuczynski",
-    "ide": "ppk",
-    "options": [
+    title: "Gobierno de Pedro Pablo Kuczynski",
+    ide: "ppk",
+    options: [
         {
             "FECHA_CORTE": 20230330,
             "ANIOS": 2016,
@@ -267,9 +267,9 @@ export const dataPPK = {
 }
 
 export const dataSagasti = {
-    "title": "Gobierno de Francisco Sagasti",
-    "ide": "sagasti",
-    "options": [
+    title: "Gobierno de Francisco Sagasti",
+    ide: "sagasti",
+    options: [
         {
             "FECHA_CORTE": 20230330,
             "ANIOS": 2021,
@@ -287,9 +287,9 @@ export const dataSagasti = {
 }
 
 export const dataToledo = {
-    "title": "Gobierno de Alejandro Toledo",
-    "ide": "toledo",
-    "options": [
+    title: "Gobierno de Alejandro Toledo",
+    ide: "toledo",
+    options: [
         {
             "FECHA_CORTE": 20230330,
             "ANIOS": 2001,
@@ -336,9 +336,9 @@ export const dataToledo = {
 }
 
 export const dataVizcarra = {
-    "title": "Gobierno de Martín Vizcarra",
-    "ide": "vizcarra",
-    "options": [
+    title: "Gobierno de Martín Vizcarra",
+    ide: "vizcarra",
+    options: [
         {
             "FECHA_CORTE": 20230330,
             "ANIOS": 2018,
