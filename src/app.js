@@ -6,7 +6,9 @@ const containerGeneral = document.querySelector('#containerG')
 function createChart(){
     arraysData.forEach(e => {
         const newDiv = document.createElement('div')
-        newDiv.className = 'row'
+
+        //Aqui se agregan los estilos con JS
+        //newDiv.classList.add('row','border')
 
         const newCanvas = document.createElement('canvas')
         newCanvas.setAttribute('id', e.id)
