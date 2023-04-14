@@ -34,6 +34,7 @@ export const dataAlanFirst = {
     ]
 }
 
+
 export const dataAlanTwo = {
     "title": "Segundo gobierno de Alan García",
     "ide": "alan2",

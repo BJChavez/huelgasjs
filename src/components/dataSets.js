@@ -5,7 +5,7 @@ export const data = (option) => {
         datasets: [
             {
                 label: '# Pliego de reclamos',
-                data: option.map(p => p.HUELGAS_PLIEGO_RECLAMOS),
+                data: option.map(b => b.HUELGAS_PLIEGO_RECLAMOS),
                 backgroundColor: '#005f73',
                 borderWidth: 1,
                 fill: false,

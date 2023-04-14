@@ -16,31 +16,25 @@ import {dataAlanFirst, dataAlanTwo, dataFujimori, dataOllanta, dataPPK, dataPani
 //const arraysCtx = [ctxAlan1, ctxFujimori, ctxPaniagua, ctxToledo, ctxAlan2, ctxOllanta, ctxPPK, ctxVizcarra, ctxSagasti]
 const arraysData = [dataAlanFirst, dataAlanTwo, dataFujimori, dataOllanta, dataPPK, dataPaniagua, dataSagasti, dataToledo, dataVizcarra]
 
-console.log(arraysData)
 
 const containerG = document.querySelector('#containerG')
 
-function createForm(){
+function cChart(){
+    arraysData.forEach(e => {
+        const newDiv = document.createElement('div')
+        newDiv.className = 'row'
 
-    for(let i = 0; i <= arraysData.length; i++){
+        const newCanvas = document.createElement('canvas')
+        newCanvas.setAttribute('id', e.ide)
 
-        chartGeneral(i, i.options, i.ide)
+        newDiv.append(newCanvas)
+        const newContext = containerG.append(newDiv)
 
-        //const newDiv = document.createElement('div')
-        //newDiv.className = 'row'
-//
-        //const newCanvas = document.createElement('canvas')
-        //newCanvas.setAttribute('id', i.ide)
-//
-        //containerG.append(newDiv)
-        //newDiv.append(newCanvas)
-//
-        //chartGeneral(i, i.options, i.title)
-    }
+        console.log(e.options)
+    });   
 }
 
-createForm()
-
+cChart()
 
 //chartGeneral(ctxAlan1, dataAlanFirst.options, dataAlanFirst.title)
 //chartGeneral(ctxFujimori, dataFujimori.options, dataFujimori.title)
