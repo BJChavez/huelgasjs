@@ -1,7 +1,7 @@
 
-export const dataAlanFirst = {
+const dataAlanFirst = {
     title: "Primer gobierno de Alan García",
-    ide:"alan1",
+    id:"alan1",
     options: [
         {
             "FECHA_CORTE": 20230330,
@@ -34,9 +34,9 @@ export const dataAlanFirst = {
     ]
 }
 
-export const dataFujimori = {
+const dataFujimori = {
     title: "Gobierno de Alberto Fujimori",
-    ide: "fujimori",
+    id: "fujimori",
     options: [
         {
             "FECHA_CORTE": 20230330,
@@ -118,9 +118,9 @@ export const dataFujimori = {
     ]
 }
 
-export const dataPaniagua = {
+const dataPaniagua = {
     title: "Gobierno de Valentin Paniagua",
-    ide: "paniagua",
+    id: "paniagua",
     options: [
         {
             "FECHA_CORTE": 20230330,
@@ -139,9 +139,9 @@ export const dataPaniagua = {
     ]
 }
 
-export const dataToledo = {
+const dataToledo = {
     title: "Gobierno de Alejandro Toledo",
-    ide: "toledo",
+    id: "toledo",
     options: [
         {
             "FECHA_CORTE": 20230330,
@@ -188,9 +188,9 @@ export const dataToledo = {
     ]
 }
 
-export const dataAlanTwo = {
+const dataAlanTwo = {
     title: "Segundo gobierno de Alan García",
-    ide: "alan2",
+    id: "alan2",
     options: [
         {
             "FECHA_CORTE": 20230330,
@@ -238,9 +238,9 @@ export const dataAlanTwo = {
 }
 
 
-export const dataOllanta = {
+const dataOllanta = {
     title: "Gobierno de Ollanta Humala",
-    ide: "ollanta",
+    id: "ollanta",
     options: [
         {
             "FECHA_CORTE": 20230330,
@@ -288,9 +288,9 @@ export const dataOllanta = {
 }
 
 
-export const dataPPK = {
+const dataPPK = {
     title: "Gobierno de Pedro Pablo Kuczynski",
-    ide: "ppk",
+    id: "ppk",
     options: [
         {
             "FECHA_CORTE": 20230330,
@@ -316,9 +316,9 @@ export const dataPPK = {
     ]
 }
 
-export const dataVizcarra = {
+const dataVizcarra = {
     title: "Gobierno de Martín Vizcarra",
-    ide: "vizcarra",
+    id: "vizcarra",
     options: [
         {
             "FECHA_CORTE": 20230330,
@@ -344,9 +344,9 @@ export const dataVizcarra = {
     ]
 }
 
-export const dataSagasti = {
+const dataSagasti = {
     title: "Gobierno de Francisco Sagasti",
-    ide: "sagasti",
+    id: "sagasti",
     options: [
         {
             "FECHA_CORTE": 20230330,
@@ -364,4 +364,15 @@ export const dataSagasti = {
     ]
 }
 
+export const arraysData = [
+    dataAlanFirst,
+    dataFujimori,
+    dataPaniagua,
+    dataToledo,
+    dataAlanTwo,
+    dataOllanta,
+    dataPPK,
+    dataVizcarra,
+    dataSagasti,
+]
 

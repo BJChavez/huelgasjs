@@ -1,17 +1,5 @@
 import { chartGeneral } from './components/index.js'
-import {dataAlanFirst, dataAlanTwo, dataFujimori, dataOllanta, dataPPK, dataPaniagua, dataSagasti, dataToledo, dataVizcarra} from '../data/dbpresidents.js'
-
-const arraysData = [
-    dataAlanFirst,
-    dataFujimori,
-    dataPaniagua,
-    dataToledo, 
-    dataAlanTwo, 
-    dataOllanta, 
-    dataPPK,
-    dataVizcarra,
-    dataSagasti,]
-
+import { arraysData } from '../data/db.js'
 
 const containerGeneral = document.querySelector('#containerG')
 
@@ -21,7 +9,7 @@ function createChart(){
         newDiv.className = 'row'
 
         const newCanvas = document.createElement('canvas')
-        newCanvas.setAttribute('id', e.ide)
+        newCanvas.setAttribute('id', e.id)
 
         newDiv.append(newCanvas)
         containerGeneral.append(newDiv)
