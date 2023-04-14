@@ -1,5 +1,5 @@
 
-export const PERU = [
+export const dbPeru = [
         {
             "INFLATION": 85.8223062381847,
             "ANIO": 1987,
