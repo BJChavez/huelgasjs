@@ -6,12 +6,11 @@ const containerGeneral = document.querySelector('#containerG')
 function createChart(){
     arraysData.forEach(e => {
         const newDiv = document.createElement('div')
-
-        //Aqui se agregan los estilos con JS
-        //newDiv.classList.add('row','border')
+        //newDiv.classList.add('','')
 
         const newCanvas = document.createElement('canvas')
         newCanvas.setAttribute('id', e.id)
+        //newCancas.classList('','')
 
         newDiv.append(newCanvas)
         containerGeneral.append(newDiv)
