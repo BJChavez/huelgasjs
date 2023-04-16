@@ -22,7 +22,7 @@ export const dataOptions = (title) => {
                 position: 'right'
             }
         },
-        animations: {
+        /*animations: {
             tension: {
                 duration: 2000,
                 easing:'linear',
@@ -30,7 +30,7 @@ export const dataOptions = (title) => {
                 to: 0,
                 loop: true
             }
-        }
+        }*/
     }
 
     return options

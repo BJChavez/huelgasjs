@@ -1,5 +1,5 @@
 
-export const data = (option) => {
+export const dataSets = (option) => {
     const dataSet = {
         labels: option.map(a => a.ANIOS),
         datasets: [

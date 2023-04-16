@@ -1,9 +1,9 @@
-import { data } from './dataSets.js'
-import { dataOptions } from './dataOptions.js'
+import { dataSets } from './sets.js'
+import { dataOptions } from './options.js'
 
 export const chartGeneral = (ctx, option, title) => new Chart(ctx, {
 
     type: 'line',
-    data: data(option),
+    data: dataSets(option),
     options: dataOptions(title)
 })
