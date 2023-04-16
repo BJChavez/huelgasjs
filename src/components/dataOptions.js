@@ -22,7 +22,15 @@ export const dataOptions = (title) => {
                 position: 'right'
             }
         },
-        responsive: true
+        animations: {
+            tension: {
+                duration: 2000,
+                easing:'linear',
+                from: 1,
+                to: 0,
+                loop: true
+            }
+        }
     }
 
     return options
