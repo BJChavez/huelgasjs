@@ -1,10 +1,10 @@
-import { chartGeneral } from './components/index.js'
+import { chartGeneral } from './components/graphic.js'
 import { arraysData } from '../data/db.js'
 
-const containerGeneral = document.querySelector('#containerG')
+const containerGeneral = document.querySelector('#chart')
 
 function createChart(){
-    arraysData.forEach(e => {
+    arraysData.forEach(data => {
 
         const newDiv = document.createElement('div')
         const newCanvas = document.createElement('canvas')
@@ -16,12 +16,12 @@ function createChart(){
         'rounded-md',
         'bg-white')
 
-        newCanvas.setAttribute('id', e.id)
+        newCanvas.setAttribute('id', data.id)
 
         newDiv.append(newCanvas)
         containerGeneral.append(newDiv)
 
-        chartGeneral(newCanvas.id, e.options, e.title)
+        chartGeneral(newCanvas.id, data.options, data.title)
     });   
 }
 
