@@ -9,12 +9,12 @@ function createChart(){
         const newDiv = document.createElement('div')
         const newCanvas = document.createElement('canvas')
         
-        newDiv.classList.add('p-12')
+        newDiv.classList.add('p-12',
+        'pl-36',
+        'pr-36')
         newCanvas.classList.add('p-3', 
         'border-2', 
-        'border-teal-600', 
-        'rounded-md',
-        'bg-white')
+        'rounded-md')
 
         newCanvas.setAttribute('id', e.id)
 
