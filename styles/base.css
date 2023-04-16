@@ -44,7 +44,7 @@ html {
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Inter var;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -525,12 +525,20 @@ video {
   margin-top: 1.25rem;
 }
 
+.grid {
+  display: grid;
+}
+
 .h-24 {
   height: 6rem;
 }
 
 .w-24 {
   width: 6rem;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .rounded-2xl {
@@ -545,6 +553,25 @@ video {
   border-width: 2px;
 }
 
+.border-sky-700 {
+  --tw-border-opacity: 1;
+  border-color: rgb(3 105 161 / var(--tw-border-opacity));
+}
+
+.border-slate-900 {
+  --tw-border-opacity: 1;
+  border-color: rgb(15 23 42 / var(--tw-border-opacity));
+}
+
+.bg-emerald-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(167 243 208 / var(--tw-bg-opacity));
+}
+
+.bg-fixed {
+  background-attachment: fixed;
+}
+
 .p-12 {
   padding: 3rem;
 }
@@ -557,32 +584,40 @@ video {
   padding: 1.25rem;
 }
 
+.p-10 {
+  padding: 2.5rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
 .pb-6 {
   padding-bottom: 1.5rem;
-}
-
-.pl-44 {
-  padding-left: 11rem;
-}
-
-.pr-44 {
-  padding-right: 11rem;
-}
-
-.pl-40 {
-  padding-left: 10rem;
-}
-
-.pr-40 {
-  padding-right: 10rem;
 }
 
 .pl-36 {
   padding-left: 9rem;
 }
 
+.pl-44 {
+  padding-left: 11rem;
+}
+
 .pr-36 {
   padding-right: 9rem;
+}
+
+.pr-44 {
+  padding-right: 11rem;
+}
+
+.pl-32 {
+  padding-left: 8rem;
+}
+
+.pr-32 {
+  padding-right: 8rem;
 }
 
 .text-center {
@@ -590,7 +625,7 @@ video {
 }
 
 .font-sans {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Inter var;
 }
 
 .text-2xl {
@@ -603,11 +638,19 @@ video {
   line-height: 2.5rem;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .font-bold {
   font-weight: 700;
 }
 
-.text-teal-900 {
-  --tw-text-opacity: 1;
-  color: rgb(19 78 74 / var(--tw-text-opacity));
+.font-medium {
+  font-weight: 500;
+}
+
+.italic {
+  font-style: italic;
 }
