@@ -6,6 +6,12 @@ module.exports = {
       fontFamily:{
         sans: ['Inter var']
       }
+    },
+    colors: {
+      'head':'#2C2C54',
+      'borde':'#A40E4C',
+      'text':'#EFF2F1',
+      'fond':'#F49D6E'
     }
   },
   plugins: [],

@@ -9,7 +9,7 @@ export const dataOptions = (title) => {
                 padding: {
                     top: 30,
                     bottom: 10
-                }
+                },
             }
         },
         scales: {
@@ -22,6 +22,8 @@ export const dataOptions = (title) => {
                 position: 'right'
             }
         },
+        maintainAspecRatio: false,
+        responsive: true,
         /*animations: {
             tension: {
                 duration: 2000,
