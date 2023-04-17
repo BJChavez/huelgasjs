@@ -6,13 +6,8 @@ const containerGeneral = document.querySelector('#chart')
 function createChart(){
     arraysData.forEach(data => {
 
-        //const newDiv = document.createElement('div')
         const newCanvas = document.createElement('canvas')
         
-        // newDiv.classList.add(
-        // 'p-5', 
-        // 'mx-auto',
-        // 'w-5/6')
         newCanvas.classList.add(
         'md:m-10',
         'm-0',
@@ -23,8 +18,6 @@ function createChart(){
         'bg-white',)
 
         newCanvas.setAttribute('id', data.id)
-
-        //newDiv.append(newCanvas)
         containerGeneral.append(newCanvas)
 
         chartGeneral(newCanvas.id, data.options, data.title)

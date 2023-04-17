@@ -8,10 +8,8 @@ module.exports = {
       }
     },
     colors: {
-      'head':'#2C2C54',
-      'borde':'#A40E4C',
-      'text':'#EFF2F1',
-      'fond':'#F49D6E'
+      'text':'#352208',
+      'head': '#fad643',
     }
   },
   plugins: [],
