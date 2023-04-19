@@ -4,23 +4,23 @@ export const dataSets = (option) => {
         labels: option.map(a => a.ANIOS),
         datasets: [
             {
-                label: '# Pliego de reclamos',
+                label: '# Huelgas por pliego de reclamos',
                 data: option.map(b => b.HUELGAS_PLIEGO_RECLAMOS),
-                backgroundColor: '#005f73',
-                borderWidth: 1,
+                backgroundColor: '#ff7b00',
+                borderWidth: 2,
                 fill: false,
                 tension: 0.4,
-                borderColor: '#005f73',
+                borderColor: '#001d3d',
                 yAxisID: 'y'
             },
             {
-                label: '% Inflacion',
+                label: 'Inflacion',
                 data: option.map(c => parseInt(Math.round(c.INFLATION))),
-                backgroundColor: '#c1121f',
-                borderWidth: 1,
+                backgroundColor: '#e5383b',
+                borderWidth: 2,
                 fill: false,
                 tension: 0.4,
-                borderColor: '#c1121f',
+                borderColor: '#780000',
                 yAxisID: 'y1'
             }
         ]

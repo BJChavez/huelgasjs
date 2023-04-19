@@ -23,10 +23,10 @@ export const dataOptions = (title) => {
             }
         },
         maintainAspecRatio: false,
-        responsive: true,
-        /*animations: {
+        /*responsive: true,
+        animations: {
             tension: {
-                duration: 2000,
+                duration: 1000,
                 easing:'linear',
                 from: 1,
                 to: 0,

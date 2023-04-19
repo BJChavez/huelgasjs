@@ -8,7 +8,7 @@ function createChart(){
 
         const newCanvas = document.createElement('canvas')
         
-        newCanvas.classList.add('lg:m-20','md:m-14','m-8','border-2','border-text', 'rounded-xl','p-3')
+        newCanvas.classList.add('lg:m-20','md:m-14','m-8','border-2','border-text', 'rounded-xl','p-3', 'bg-canva')
 
         newCanvas.setAttribute('id', data.id)
         containerGeneral.append(newCanvas)
