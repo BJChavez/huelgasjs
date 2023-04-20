@@ -18,3 +18,11 @@ function createChart(){
 }
 
 createChart()
+
+const seleChart = document.querySelector('#seleChart')
+
+seleChart.addEventListener('change', () => {
+
+    console.log(newCanvas.id)
+
+})
