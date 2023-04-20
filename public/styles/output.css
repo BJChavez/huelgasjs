@@ -529,6 +529,10 @@ video {
   margin-right: auto;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
@@ -541,8 +545,29 @@ video {
   height: 11rem;
 }
 
+.h-full {
+  height: 100%;
+}
+
+.h-auto {
+  height: auto;
+}
+
 .w-20 {
   width: 5rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-max {
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.w-auto {
+  width: auto;
 }
 
 .basis-1\/4 {
@@ -553,6 +578,14 @@ video {
   flex-basis: 75%;
 }
 
+.basis-1\/2 {
+  flex-basis: 50%;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -561,8 +594,20 @@ video {
   border-radius: 0.75rem;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
 .border-2 {
   border-width: 2px;
+}
+
+.border-4 {
+  border-width: 4px;
 }
 
 .border-text {
@@ -580,6 +625,11 @@ video {
   background-color: rgb(250 214 67 / var(--tw-bg-opacity));
 }
 
+.bg-text {
+  --tw-bg-opacity: 1;
+  background-color: rgb(53 34 8 / var(--tw-bg-opacity));
+}
+
 .p-1 {
   padding: 0.25rem;
 }
@@ -594,6 +644,22 @@ video {
 
 .p-5 {
   padding: 1.25rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
 .text-center {
@@ -618,7 +684,35 @@ video {
   font-weight: 700;
 }
 
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
 .text-text {
+  --tw-text-opacity: 1;
+  color: rgb(53 34 8 / var(--tw-text-opacity));
+}
+
+.text-head {
+  --tw-text-opacity: 1;
+  color: rgb(250 214 67 / var(--tw-text-opacity));
+}
+
+.hover\:bg-text:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(53 34 8 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-head:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 214 67 / var(--tw-bg-opacity));
+}
+
+.hover\:text-text:hover {
   --tw-text-opacity: 1;
   color: rgb(53 34 8 / var(--tw-text-opacity));
 }
@@ -645,6 +739,10 @@ video {
 
   .md\:h-auto {
     height: auto;
+  }
+
+  .md\:h-full {
+    height: 100%;
   }
 
   .md\:text-4xl {
