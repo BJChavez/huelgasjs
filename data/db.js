@@ -1,8 +1,31 @@
 
-const dataAlanFirst = {
-    title: "Primer gobierno de Alan García",
-    id:"alan1",
-    options: [
+const dataAlanFirst = [
+    {
+        anios: 1987,
+        options: {
+            ID: 'alan1',
+            TITLE: 'Primer gobierno de Alan García',
+            FECHA_CORTE: 20230330,
+            HUELGAS_PLIEGO_RECLAMOS: 222,
+            HUELGAS_OTRAS_CAUSAS: 498,
+            INFLATION: 85.8223062381847
+        }
+    },
+    {
+        anios: 1988,
+        options: {
+            ID: 'alan1',
+            TITLE: 'Primer gobierno de Alan García',
+            FECHA_CORTE: 20230330,
+            HUELGAS_PLIEGO_RECLAMOS: 222,
+            HUELGAS_OTRAS_CAUSAS: 498,
+            INFLATION: 85.8223062381847
+        }
+    },
+]
+        'title': "Primer gobierno de Alan García",
+        'id': "alan1",
+        options: 
         {
             "FECHA_CORTE": 20230330,
             "ANIOS": 1987,
