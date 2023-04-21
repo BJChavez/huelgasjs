@@ -375,4 +375,3 @@ export const arraysData = [
     dataVizcarra,
     dataSagasti,
 ]
-

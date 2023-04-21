@@ -11,7 +11,7 @@ export const dataSets = (option) => {
                 fill: false,
                 tension: 0.4,
                 borderColor: '#001d3d',
-                yAxisID: 'y'
+                yAxisID: 'y',
             },
             {
                 label: 'Inflacion',
