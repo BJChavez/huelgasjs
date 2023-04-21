@@ -2,10 +2,8 @@
 module.exports = {
   content: ["./public/index.html","./src/app.js"],
   theme: {
-    extend:{
-      fontFamily:{
-        sans: ['Inter var']
-      }
+    fontFamily:{
+      'bebas':['Bebas Neue']
     },
     colors: {
       'text':'#352208',

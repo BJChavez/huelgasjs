@@ -9,30 +9,39 @@ export const dataOptions = (title) => {
                 padding: {
                     top: 30,
                     bottom: 10
-                },
+                }
+            },
+            legend: {
+                labels: {
+                    font: {
+                        size: 14,
+                    }
+                }
+            },
+            colors: {
+                enabled: true
             }
         },
         scales: {
             y: {
                 beginAtZero: true,
-                position: 'left'
+                position: 'left',
+                title: {
+                    text:'Cantidad de huelgas',
+                    display: true
+                }
             },
             y1: {
                 beginAtZero: true,
-                position: 'right'
+                position: 'right',
+                title: {
+                    text: 'Porcentaje de inflacion',
+                    display: true
+                }
             }
         },
         maintainAspecRatio: false,
-        /*responsive: true,
-        animations: {
-            tension: {
-                duration: 1000,
-                easing:'linear',
-                from: 1,
-                to: 0,
-                loop: true
-            }
-        }*/
+        responsive: true,
     }
 
     return options

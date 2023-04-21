@@ -1,11 +1,11 @@
 import { chartGeneral } from './components/graphic.js'
-import { arraysData } from '../data/db.js'
+import { dataPresidents } from '../data/db.js'
 
 const containerGeneral = document.querySelector('#chart')
 
 function createChart(){
     
-    arraysData.map(data => {
+    dataPresidents.map(data => {
 
         const newCanvas = document.createElement('canvas')
         const newDiv = document.createElement('div')
@@ -17,9 +17,6 @@ function createChart(){
         containerGeneral.append(newDiv)
 
         const test = chartGeneral(newCanvas.id, data.options, data.title)
-
-        // test.data.datasets[0].data = data.options
-        // test.update()
         
     });
 }
