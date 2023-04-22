@@ -1,8 +1,11 @@
 {
+  "name":"analisis-basico",
+  "version":"1.0.0",
+  "main":"index.html",
   "devDependencies": {
     "tailwindcss": "^3.3.1"
   },
   "scripts": {
-    "dev": "tailwindcss -i ./src/input.css -o ./public/styles/output.css --watch"
+    "dev": "tailwindcss -i ./public/styles/input.css -o ./public/styles/base.css --watch"
   }
 }
