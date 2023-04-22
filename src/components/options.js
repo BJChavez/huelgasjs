@@ -9,6 +9,9 @@ export const dataOptions = (title) => {
                 padding: {
                     top: 30,
                     bottom: 10
+                },
+                font: {
+                    size: 14,
                 }
             },
             legend: {
