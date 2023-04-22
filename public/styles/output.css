@@ -604,24 +604,9 @@ video {
   font-family: Bebas Neue;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 .text-base {
@@ -647,11 +632,6 @@ video {
     padding: 1.5rem;
   }
 
-  .sm\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
   .sm\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -669,11 +649,6 @@ video {
 
   .md\:h-auto {
     height: auto;
-  }
-
-  .md\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 
   .md\:text-5xl {
@@ -695,30 +670,12 @@ video {
     height: 6rem;
   }
 
-  .lg\:h-28 {
-    height: 7rem;
-  }
-
   .lg\:w-24 {
     width: 6rem;
   }
 
-  .lg\:w-40 {
-    width: 10rem;
-  }
-
   .lg\:flex-row {
     flex-direction: row;
-  }
-
-  .lg\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
-
-  .lg\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 
   .lg\:text-6xl {
@@ -729,9 +686,5 @@ video {
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .lg\:font-normal {
-    font-weight: 400;
   }
 }
