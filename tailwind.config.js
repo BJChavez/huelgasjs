@@ -6,9 +6,10 @@ module.exports = {
       'bebas':['Bebas Neue']
     },
     colors: {
-      'text':'#352208',
-      'head': '#fad643',
-      'canva':'#f8f9fa'
+      'text':'#f1faee',
+      'head': '#e63946',
+      'canva':'#f8f9fa',
+      'borde':'#0b090a'
     }
   },
   plugins: [],

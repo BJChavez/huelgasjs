@@ -11,13 +11,13 @@ export const dataOptions = (title) => {
                     bottom: 10
                 },
                 font: {
-                    size: 14,
+                    size: 12,
                 }
             },
             legend: {
                 labels: {
                     font: {
-                        size: 14,
+                        size: 12,
                     }
                 }
             },

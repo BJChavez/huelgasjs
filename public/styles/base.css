@@ -524,6 +524,18 @@ video {
   margin: 2rem;
 }
 
+.m-6 {
+  margin: 1.5rem;
+}
+
+.m-4 {
+  margin: 1rem;
+}
+
+.m-2 {
+  margin: 0.5rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -561,13 +573,17 @@ video {
   border-radius: 0.75rem;
 }
 
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
 .border-2 {
   border-width: 2px;
 }
 
-.border-text {
+.border-borde {
   --tw-border-opacity: 1;
-  border-color: rgb(53 34 8 / var(--tw-border-opacity));
+  border-color: rgb(11 9 10 / var(--tw-border-opacity));
 }
 
 .bg-canva {
@@ -577,7 +593,7 @@ video {
 
 .bg-head {
   --tw-bg-opacity: 1;
-  background-color: rgb(250 214 67 / var(--tw-bg-opacity));
+  background-color: rgb(230 57 70 / var(--tw-bg-opacity));
 }
 
 .p-1 {
@@ -624,7 +640,7 @@ video {
 
 .text-text {
   --tw-text-opacity: 1;
-  color: rgb(53 34 8 / var(--tw-text-opacity));
+  color: rgb(241 250 238 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
@@ -647,6 +663,10 @@ video {
     margin: 3.5rem;
   }
 
+  .md\:m-8 {
+    margin: 2rem;
+  }
+
   .md\:h-auto {
     height: auto;
   }
@@ -666,6 +686,10 @@ video {
     margin: 5rem;
   }
 
+  .lg\:m-10 {
+    margin: 2.5rem;
+  }
+
   .lg\:h-24 {
     height: 6rem;
   }
@@ -678,13 +702,18 @@ video {
     flex-direction: row;
   }
 
-  .lg\:text-6xl {
-    font-size: 3.75rem;
+  .lg\:text-7xl {
+    font-size: 4.5rem;
     line-height: 1;
   }
 
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 }
