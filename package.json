@@ -1,8 +1,13 @@
 {
-  "name":"analisis-basico",
-  "version":"2.0",
-  "main":"index.html",
+  "name": "analisis-basico",
+  "version": "2.0",
+  "main": "index.html",
   "devDependencies": {
+    "eslint": "^8.39.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
     "tailwindcss": "^3.3.1"
   },
   "scripts": {
