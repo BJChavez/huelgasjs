@@ -1,21 +1,24 @@
-import { chartGeneral } from './components/index.js'
-import { arraysData } from '../data/db.js'
+import { chartGeneral } from './components/graphic.js'
+import { dataPresidents } from '../data/db.js'
 
-const containerGeneral = document.querySelector('#containerG')
+const containerGeneral = document.querySelector('#chart')
 
 function createChart(){
-    arraysData.forEach(e => {
-        const newDiv = document.createElement('div')
-        newDiv.className = 'row'
+    
+    dataPresidents.map(data => {
 
         const newCanvas = document.createElement('canvas')
-        newCanvas.setAttribute('id', e.id)
+        const newDiv = document.createElement('div')
+        
+        newCanvas.classList.add('lg:m-20','md:m-14','m-8','border-2','border-text', 'rounded-xl','p-3', 'bg-canva')
+        newCanvas.setAttribute('id', data.id)
 
         newDiv.append(newCanvas)
         containerGeneral.append(newDiv)
 
-        chartGeneral(newCanvas.id, e.options, e.title)
-    });   
+        const test = chartGeneral(newCanvas.id, data.options, data.title)
+        
+    });
 }
 
 createChart()

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/output.css">
+    <title>Huelgas - Perú</title>
+</head>
+<body>
+
+    <main class="font-bebas">
+
+        <header class="bg-head md:h-auto h-44 p-5">
+            <div class="flex lg:flex-row flex-col sm:p-6 p-2">
+                <div class="basis-3/4 flex flex-col">
+                    <h1 class="text-text text-center p-1 md:font-extrabold font-bold lg:text-6xl md:text-5xl sm:text-4xl text-3xl">Huelga e inflacion en el Perú.</h1>
+                    <p class="text-text text-center p-2 lg:text-xl text-base font-normal">Comparación de la cantidad de huelgas por el porcentaje de inflación desde 1987 hasta 2021</p>
+                </div>
+                <div class="p-1 basis-1/4 invisible md:visible">
+                    <img src="../img/puño.svg" alt="logo-puño" class="lg:h-24 lg:w-24 h-20 w-20 mx-auto">
+                </div>
+            </div>
+        </header>
+
+        <div id="chart" class="flex flex-col">
+            
+        </div>
+    
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.2.1/dist/chart.umd.min.js"></script>
+    <script src="../src/app.js" type="module"></script>
+</body>
+</html>
