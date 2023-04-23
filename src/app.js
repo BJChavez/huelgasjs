@@ -6,7 +6,7 @@ const containerGeneral = document.querySelector('#chart')
 function createChart () {
   dataPresidents.map(data => {
     const newCanvas = document.createElement('canvas')
-    newCanvas.classList.add('lg:m-10', 'md:m-8', 'm-4', 'border-2', 'border-borde', 'rounded-lg', 'p-3', 'bg-canva')
+    newCanvas.classList.add('lg:m-20', 'md:m-10', 'm-2', 'border-2', 'border-borde', 'rounded-lg', 'p-3', 'bg-canva')
     newCanvas.setAttribute('id', data.id)
 
     containerGeneral.append(newCanvas)

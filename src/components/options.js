@@ -29,7 +29,7 @@ export const dataOptions = (title) => {
         beginAtZero: true,
         position: 'left',
         title: {
-          text: 'Cantidad de huelgas',
+          text: '# de huelgas',
           display: true
         }
       },
@@ -37,7 +37,7 @@ export const dataOptions = (title) => {
         beginAtZero: true,
         position: 'right',
         title: {
-          text: 'Porcentaje de inflacion',
+          text: '% de inflacion',
           display: true
         }
       }
