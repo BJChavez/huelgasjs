@@ -12,5 +12,8 @@
   },
   "scripts": {
     "dev": "tailwindcss -i ./public/styles/input.css -o ./public/styles/base.css --watch"
+  },
+  "dependencies": {
+    "pug": "^3.0.2"
   }
 }
