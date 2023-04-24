@@ -520,32 +520,12 @@ video {
   visibility: hidden;
 }
 
-.m-4 {
-  margin: 1rem;
-}
-
-.m-10 {
-  margin: 2.5rem;
-}
-
-.m-20 {
-  margin: 5rem;
-}
-
 .m-2 {
   margin: 0.5rem;
 }
 
 .mx-auto {
   margin-left: auto;
-  margin-right: auto;
-}
-
-.ml-auto {
-  margin-left: auto;
-}
-
-.mr-auto {
   margin-right: auto;
 }
 
@@ -663,10 +643,6 @@ video {
     visibility: visible;
   }
 
-  .md\:m-8 {
-    margin: 2rem;
-  }
-
   .md\:m-10 {
     margin: 2.5rem;
   }
@@ -686,10 +662,6 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:m-10 {
-    margin: 2.5rem;
-  }
-
   .lg\:m-20 {
     margin: 5rem;
   }
