@@ -1,4 +1,1 @@
-
-./node_modules/
-
-public/styles/base.css
+node_modules
