@@ -1,6 +1,7 @@
 # Huelgas e inflacion en el Perú (1987 - 2021)
 
-Visualizacion de datos de la cantidad de huelgas por el porcentaje de inflación en el Perú desde 1987 hasta 2021.
+![Fondo](./public/img/fondo.png)
+
 
 ## Empecemos
 
