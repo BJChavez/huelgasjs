@@ -10,7 +10,7 @@ module.exports = {
       text: '#f8f8f2',
       textSub: '#ff79c6',
       head: '#282a36',
-      canva: 'rgb(189, 147, 249, .1)',
+      canva: 'rgb(255, 121, 198, 0.1)',
       borde: '#44475a',
       buttom: '#50fa7b'
     }
