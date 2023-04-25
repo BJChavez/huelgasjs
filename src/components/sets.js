@@ -26,7 +26,7 @@ export const dataSets = (option) => {
       {
         label: 'Inflacion',
         data: option.map(c => parseInt(Math.round(c.INFLACION))),
-        backgroundColor: 'rgb(255, 85, 85, .4)',
+        backgroundColor: 'rgb(255, 85, 85, .3)',
         borderWidth: 2,
         fill: true,
         tension: 0.4,

@@ -8,23 +8,35 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./public/styles/base.css">
-    <title>Huelgas - Perú</title>
+    <title>Open Data Perú</title>
 </head>
 <body>
 
-    <main class="font-bebas">
+    <main class="">
 
-        <header class="bg-head md:h-auto h-44 p-5">
-            <div class="flex lg:flex-row flex-col sm:p-6 p-2">
-                <div class="basis-3/4 flex flex-col">
-                    <h1 class="text-text text-center p-1 md:font-extrabold font-bold lg:text-6xl md:text-5xl sm:text-4xl text-3xl">Huelga e inflacion en el Perú.</h1>
-                    <p class="text-textSub text-center p-2 lg:text-xl text-base font-normal">Visualización de la cantidad de huelgas por el porcentaje de inflación en el Perú desde 1987 hasta 2021</p>
-                </div>
-                <div class="p-1 basis-1/4 invisible md:visible">
-                    <img src="./public/img/mapa.svg" alt="logo-puño" class="lg:h-24 lg:w-28 h-20 w-20 mx-auto">
+        <header class="bg-head md:h-auto h-48 p-5">
+            <div class="flex flex-col sm:p-6 p-2">
+                <div class="flex flex-col font-bebas">
+                    <h1 class="text-text text-center p-2 font-bold lg:text-7xl md:text-5xl sm:text-4xl text-4xl">
+                        Huelga e inflacion en el Perú
+                    </h1>
+                    <p class="text-textSub text-center m-4 lg:text-2xl md:text-xl sm:text-base text-sm font-normal">
+                        Visualización de la cantidad de huelgas por el porcentaje de inflación en el Perú desde 1987 hasta 2021.
+                    </p>
                 </div>
             </div>
         </header>
+
+        <div class="font-arial">
+            <div class="md:pt-10 pt-2 visible font-bold text-center lg:text-sm text-xs text-text">
+                <button id="bar" class="p-3 bg-buttom hover:bg-textSub hover:text-head rounded-lg mr-4 shadow-lg">
+                    Gráfico de barras
+                </button>
+                <button id="line" class="p-3 bg-buttom hover:bg-textSub hover:text-head rounded-lg ml-4 shadow-lg">
+                    Gráfico de lineas
+                </button>
+            </div>
+        </div>
 
         <div id="chart" class="flex flex-col">
             
