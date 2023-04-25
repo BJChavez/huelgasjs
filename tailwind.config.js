@@ -6,10 +6,11 @@ module.exports = {
       bebas: ['Bebas Neue']
     },
     colors: {
-      text: '#f1faee',
-      head: '#e63946',
-      canva: '#f8f9fa',
-      borde: '#0b090a'
+      text: '#f8f8f2',
+      textSub: '#50fa7b',
+      head: '#44475a',
+      canva: '#f8f8f2',
+      borde: '#44475a'
     }
   },
   plugins: []

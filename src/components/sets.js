@@ -6,7 +6,7 @@ export const dataSets = (option) => {
       {
         label: 'Por pliego de reclamos',
         data: option.map(pliego => pliego.HUELGAS_PLIEGO_RECLAMOS),
-        backgroundColor: 'rgba(155, 208, 245, .4)',
+        backgroundColor: 'rgb(139, 233, 253, .3)',
         borderWidth: 2,
         fill: true,
         tension: 0.4,
@@ -16,7 +16,7 @@ export const dataSets = (option) => {
       {
         label: 'Por otras causas',
         data: option.map(otras => otras.HUELGAS_OTRAS_CAUSAS),
-        backgroundColor: 'rgba(116, 198, 157, .4)',
+        backgroundColor: 'rgb(80, 250, 123, .3)',
         borderWidth: 2,
         fill: true,
         tension: 0.4,
@@ -26,7 +26,7 @@ export const dataSets = (option) => {
       {
         label: 'Inflacion',
         data: option.map(c => parseInt(Math.round(c.INFLACION))),
-        backgroundColor: 'rgba(255, 177, 193, .4)',
+        backgroundColor: 'rgb(255, 85, 85, .4)',
         borderWidth: 2,
         fill: true,
         tension: 0.4,

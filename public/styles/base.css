@@ -567,17 +567,17 @@ video {
 
 .border-borde {
   --tw-border-opacity: 1;
-  border-color: rgb(11 9 10 / var(--tw-border-opacity));
+  border-color: rgb(68 71 90 / var(--tw-border-opacity));
 }
 
 .bg-canva {
   --tw-bg-opacity: 1;
-  background-color: rgb(248 249 250 / var(--tw-bg-opacity));
+  background-color: rgb(248 248 242 / var(--tw-bg-opacity));
 }
 
 .bg-head {
   --tw-bg-opacity: 1;
-  background-color: rgb(230 57 70 / var(--tw-bg-opacity));
+  background-color: rgb(68 71 90 / var(--tw-bg-opacity));
 }
 
 .p-1 {
@@ -624,7 +624,12 @@ video {
 
 .text-text {
   --tw-text-opacity: 1;
-  color: rgb(241 250 238 / var(--tw-text-opacity));
+  color: rgb(248 248 242 / var(--tw-text-opacity));
+}
+
+.text-textSub {
+  --tw-text-opacity: 1;
+  color: rgb(80 250 123 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
