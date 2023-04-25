@@ -36,9 +36,9 @@ npm run dev
 
 ## Tecnologías
 
-* [Chart.js](https://www.chartjs.org/) - Chart.js
-* [Tailwindcss](https://tailwindcss.com/) - Tailwindcss
-* [ESlint](https://eslint.org/) - ESlint
+* [Chart.js](https://www.chartjs.org/) - Simple yet flexible JavaScript charting library for the modern web
+* [Tailwindcss](https://tailwindcss.com/) - Rapidly build modern websites without ever leaving your HTML
+* [ESlint](https://eslint.org/) - Find and fix problems in your JavaScript code
 
 ## Autores
 * [Joel Chavez](https://github.com/BJChavez) -  **Trabajo principal**
