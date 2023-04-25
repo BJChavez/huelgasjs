@@ -37,7 +37,7 @@ export const dataOptions = (title) => {
         beginAtZero: true,
         position: 'right',
         title: {
-          text: '% de inflacion',
+          text: '% de inflación',
           display: true
         }
       }
