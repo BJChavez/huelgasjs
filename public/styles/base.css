@@ -520,21 +520,12 @@ video {
   visibility: visible;
 }
 
-.invisible {
-  visibility: hidden;
-}
-
 .m-2 {
   margin: 0.5rem;
 }
 
 .m-4 {
   margin: 1rem;
-}
-
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .ml-4 {
@@ -549,36 +540,12 @@ video {
   display: flex;
 }
 
-.h-20 {
-  height: 5rem;
-}
-
-.h-44 {
-  height: 11rem;
-}
-
 .h-48 {
   height: 12rem;
 }
 
-.w-20 {
-  width: 5rem;
-}
-
-.basis-1\/4 {
-  flex-basis: 25%;
-}
-
-.basis-3\/4 {
-  flex-basis: 75%;
-}
-
 .flex-col {
   flex-direction: column;
-}
-
-.rounded-full {
-  border-radius: 9999px;
 }
 
 .rounded-lg {
@@ -594,6 +561,11 @@ video {
   border-color: rgb(68 71 90 / var(--tw-border-opacity));
 }
 
+.bg-buttom {
+  --tw-bg-opacity: 1;
+  background-color: rgb(80 250 123 / var(--tw-bg-opacity));
+}
+
 .bg-canva {
   background-color: rgb(189, 147, 249, .1);
 }
@@ -601,15 +573,6 @@ video {
 .bg-head {
   --tw-bg-opacity: 1;
   background-color: rgb(40 42 54 / var(--tw-bg-opacity));
-}
-
-.bg-buttom {
-  --tw-bg-opacity: 1;
-  background-color: rgb(80 250 123 / var(--tw-bg-opacity));
-}
-
-.p-1 {
-  padding: 0.25rem;
 }
 
 .p-2 {
@@ -640,19 +603,9 @@ video {
   font-family: Bebas Neue;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
 }
 
 .text-sm {
@@ -689,11 +642,6 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow-buttom {
-  --tw-shadow-color: #50fa7b;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
 .hover\:bg-textSub:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 121 198 / var(--tw-bg-opacity));
@@ -721,10 +669,6 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:visible {
-    visibility: visible;
-  }
-
   .md\:m-10 {
     margin: 2.5rem;
   }
@@ -746,10 +690,6 @@ video {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
-
-  .md\:font-extrabold {
-    font-weight: 800;
-  }
 }
 
 @media (min-width: 1024px) {
@@ -757,26 +697,9 @@ video {
     margin: 5rem;
   }
 
-  .lg\:h-24 {
-    height: 6rem;
-  }
-
-  .lg\:w-28 {
-    width: 7rem;
-  }
-
-  .lg\:flex-row {
-    flex-direction: row;
-  }
-
   .lg\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
-  }
-
-  .lg\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
   }
 
   .lg\:text-7xl {
@@ -787,10 +710,5 @@ video {
   .lg\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
-  }
-
-  .lg\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
   }
 }
