@@ -1,6 +1,5 @@
 import { chartGeneral } from './components/graphic.js'
 import { dataPresidents } from '../data/db.js'
-import { addClassNewCanvas } from './components/sets.js'
 import Event from './events/event.js'
 
 const containerGeneral = document.querySelector('#chart')
@@ -8,7 +7,7 @@ const containerGeneral = document.querySelector('#chart')
 function createChart () {
   dataPresidents.map(data => {
     const newCanvas = document.createElement('canvas')
-    newCanvas.classList.add(addClassNewCanvas)
+    newCanvas.classList.add('lg:m-20', 'md:m-10', 'm-2', 'border-2', 'border-borde', 'rounded-lg', 'p-3', 'bg-canva')
     newCanvas.setAttribute('id', data.id)
 
     containerGeneral.append(newCanvas)

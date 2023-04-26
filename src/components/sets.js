@@ -1,4 +1,3 @@
-export const addClassNewCanvas = ['lg:m-20', 'md:m-10', 'm-2', 'border-2', 'border-borde', 'rounded-lg', 'p-3', 'bg-canva']
 
 const LABEL_CHART = {
   pliego: 'Por pliego de reclamos',
