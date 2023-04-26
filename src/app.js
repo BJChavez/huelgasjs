@@ -1,6 +1,6 @@
 import { chartGeneral } from './components/graphic.js'
 import { dataPresidents } from '../data/db.js'
-import Event from './events/event.js'
+import { changeChart } from './events/event.js'
 
 const containerGeneral = document.querySelector('#chart')
 
@@ -14,8 +14,7 @@ function createChart () {
 
     const myChart = chartGeneral(newCanvas.id, data.options, data.title)
 
-    Event.chartToBar(myChart)
-    Event.ChartToLine(myChart)
+    changeChart(myChart)
 
     return myChart
   })

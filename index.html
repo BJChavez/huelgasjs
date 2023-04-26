@@ -38,12 +38,11 @@
 
         <div class="font-arial">
             <div class="md:pt-10 pt-2 visible font-bold text-center lg:text-sm text-xs text-text">
-                <button id="bar" class="p-3 bg-textSub hover:bg-buttom rounded-lg mr-4 shadow-2xl border-2 border-head">
-                    Gráfico de barras
-                </button>
-                <button id="line" class="p-3 bg-textSub hover:bg-buttom rounded-lg ml-4 shadow-2xl border-2 border-head">
-                    Gráfico de lineas
-                </button>
+                <select name="" id="graphics" class="text-head">
+                    <option selected>Tipo de gráfico</option>
+                    <option value="barras">Barras</option>
+                    <option value="lineas">Lineas</option>
+                </select>
                 <button id="download" class="p-3 bg-textSub hover:bg-buttom rounded-lg ml-4 shadow-2xl border-2 border-head">
                     Dataset
                 </button>
@@ -52,6 +51,12 @@
 
         <div id="chart" class="flex flex-col"></div>
     
+        <!-- <button id="bar" class="p-3 bg-textSub hover:bg-buttom rounded-lg mr-4 shadow-2xl border-2 border-head">
+            Gráfico de barras
+        </button>
+        <button id="line" class="p-3 bg-textSub hover:bg-buttom rounded-lg ml-4 shadow-2xl border-2 border-head">
+            Gráfico de lineas
+        </button> -->
     </main>
     
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.2.1/dist/chart.umd.min.js"></script>
