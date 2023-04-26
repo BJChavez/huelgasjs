@@ -573,18 +573,23 @@ video {
   border-color: rgb(68 71 90 / var(--tw-border-opacity));
 }
 
-.bg-buttom {
-  --tw-bg-opacity: 1;
-  background-color: rgb(80 250 123 / var(--tw-bg-opacity));
+.border-head {
+  --tw-border-opacity: 1;
+  border-color: rgb(68 71 90 / var(--tw-border-opacity));
 }
 
 .bg-canva {
-  background-color: rgb(255, 121, 198, 0.1);
+  background-color: rgb(248, 248, 242, .2);
 }
 
 .bg-head {
   --tw-bg-opacity: 1;
-  background-color: rgb(40 42 54 / var(--tw-bg-opacity));
+  background-color: rgb(68 71 90 / var(--tw-bg-opacity));
+}
+
+.bg-textSub {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 121 198 / var(--tw-bg-opacity));
 }
 
 .p-2 {
@@ -638,14 +643,14 @@ video {
   font-weight: 400;
 }
 
+.text-buttom {
+  --tw-text-opacity: 1;
+  color: rgb(80 250 123 / var(--tw-text-opacity));
+}
+
 .text-text {
   --tw-text-opacity: 1;
   color: rgb(248 248 242 / var(--tw-text-opacity));
-}
-
-.text-textSub {
-  --tw-text-opacity: 1;
-  color: rgb(255 121 198 / var(--tw-text-opacity));
 }
 
 .shadow-2xl {
@@ -654,9 +659,9 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.hover\:bg-textSub:hover {
+.hover\:bg-buttom:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 121 198 / var(--tw-bg-opacity));
+  background-color: rgb(80 250 123 / var(--tw-bg-opacity));
 }
 
 @media (min-width: 640px) {

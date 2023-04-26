@@ -16,7 +16,7 @@ export const dataSets = (option) => {
         borderWidth: 2,
         fill: true,
         tension: 0.4,
-        borderColor: '#001d3d',
+        borderColor: 'rgb(2, 62, 138)',
         yAxisID: 'y'
       },
       {
@@ -26,17 +26,17 @@ export const dataSets = (option) => {
         borderWidth: 2,
         fill: true,
         tension: 0.4,
-        borderColor: 'rgba(8, 28, 21)'
+        borderColor: 'rgba(41, 191, 18)'
         //  yAxisID: 'y'
       },
       {
         label: LABEL_CHART.inflacion,
         data: option.map(c => parseInt(Math.round(c.INFLACION))),
-        backgroundColor: 'rgb(255, 85, 85, .3)',
+        backgroundColor: 'rgb(255, 121, 198, .3)',
         borderWidth: 2,
         fill: true,
         tension: 0.4,
-        borderColor: '#780000',
+        borderColor: 'rgb(204, 68, 75)',
         yAxisID: 'y1'
       }
     ]
