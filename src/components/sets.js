@@ -1,10 +1,16 @@
 
+const LABEL_CHART = {
+  pliego: 'Por pliego de reclamos',
+  otros: 'Por otras causas',
+  inflacion: 'Inflación'
+}
+
 export const dataSets = (option) => {
   const dataSet = {
     labels: option.map(a => a.ANIOS),
     datasets: [
       {
-        label: 'Por pliego de reclamos',
+        label: LABEL_CHART.pliego,
         data: option.map(pliego => pliego.HUELGAS_PLIEGO_RECLAMOS),
         backgroundColor: 'rgb(139, 233, 253, .3)',
         borderWidth: 2,
@@ -14,7 +20,7 @@ export const dataSets = (option) => {
         yAxisID: 'y'
       },
       {
-        label: 'Por otras causas',
+        label: LABEL_CHART.otros,
         data: option.map(otras => otras.HUELGAS_OTRAS_CAUSAS),
         backgroundColor: 'rgb(80, 250, 123, .3)',
         borderWidth: 2,
@@ -24,7 +30,7 @@ export const dataSets = (option) => {
         //  yAxisID: 'y'
       },
       {
-        label: 'Inflacion',
+        label: LABEL_CHART.inflacion,
         data: option.map(c => parseInt(Math.round(c.INFLACION))),
         backgroundColor: 'rgb(255, 85, 85, .3)',
         borderWidth: 2,
