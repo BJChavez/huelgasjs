@@ -1,23 +1,8 @@
 import { chartGeneral } from './components/graphic.js'
 import { dataPresidents } from '../data/db.js'
+import Event from './events/event.js'
 
 const containerGeneral = document.querySelector('#chart')
-
-function bar (ctx) {
-  const bar = document.querySelector('#bar')
-  bar.addEventListener('click', () => {
-    ctx.config.type = 'bar'
-    ctx.update()
-  })
-}
-
-function line (ctx) {
-  const line = document.querySelector('#line')
-  line.addEventListener('click', () => {
-    ctx.config.type = 'line'
-    ctx.update()
-  })
-}
 
 function createChart () {
   dataPresidents.map(data => {
@@ -29,15 +14,11 @@ function createChart () {
 
     const myChart = chartGeneral(newCanvas.id, data.options, data.title)
 
-    bar(myChart)
-    line(myChart)
+    Event.chartToBar(myChart)
+    Event.ChartToLine(myChart)
 
     return myChart
   })
 }
 
 createChart()
-
-// console.log(Object.keys(window.Chart))
-
-// console.log(Object.keys(window.Chart.instances['1']._metasets['1']))
