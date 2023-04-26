@@ -12,5 +12,8 @@
   },
   "scripts": {
     "dev": "tailwindcss -i ./public/styles/input.css -o ./public/styles/base.css --watch"
+  },
+  "dependencies": {
+    "json-to-csv-export": "^2.1.1"
   }
 }
