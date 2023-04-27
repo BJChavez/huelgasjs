@@ -4,7 +4,7 @@
 
 ## Descripción
 
-Luego de que el Ministerio de Trabajo y Promoción del Empleo, mediante la plataforma de Datos Abiertos del Estado Peruano, publicara el dataset:  *Histórico de Huelgas del Perú (1987 - 2022)*, se necesitaba limpiar, implementar y comunicar los datos de manera correcta. Así nació este microproyecto, enfocado en proporcionar una accesibilidad masiva, intercativa y sobre todo visual a la información. Además, para hacerlo más interesante, se manejo el dataset del porcentaje de inflación en el Perú en esos mismos años descagado del sitio web del Banco Mundial. 
+Luego de que el Ministerio de Trabajo y Promoción del Empleo, mediante la plataforma de Datos Abiertos del Estado Peruano, publicara el dataset:  *Histórico de Huelgas del Perú (1987 - 2022)*, se necesitaba limpiar, implementar y comunicar los datos de manera correcta. Así nació este microproyecto, enfocado en proporcionar una accesibilidad masiva, intercativa y sobre todo visual a la información. Además, para hacerlo más interesante, se manejo el dataset del porcentaje de inflación en el Perú en esos mismos años descagado del sitio web del Banco Mundial. Observe los datos del Banco Mundial [aquí.](https://datos.bancomundial.org/indicator/FP.CPI.TOTL.ZG?locations=PE)
 
 ## Empecemos
 
