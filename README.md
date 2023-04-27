@@ -1,17 +1,22 @@
-# Huelgas e inflacion en el Perú (1987 - 2021)
 
-Visualización de la cantidad de huelgas por el porcentaje de inflación en el Perú desde 1987 hasta 2021.
+![Fondo](./public/img/fondo.png)
+
+
+## Descripción
+
+Luego de que el Ministerio de Trabajo y Promoción del Empleo, mediante la plataforma de Datos Abiertos del Estado Peruano, publicara el dataset:  *Histórico de Huelgas del Perú (1987 - 2022)*, se necesitaba limpiar, implementar y comunicar los datos de manera correcta. Así nació este microproyecto, enfocado en proporcionar una accesibilidad masiva, intercativa y sobre todo visual a la información. Además, para hacerlo más interesante, se manejo el dataset del porcentaje de inflación en el Perú en esos mismos años descagado del sitio web del Banco Mundial. 
 
 ## Empecemos
 
-Lea las siguientes instrucciones para descargar, instalar y correr la aplicación. 
+Sigue estos pasos para descargar el repositorio, instalar las dependencias y correr la aplicación. 
 
 ## Pre - requisitos
 
-Tener instalado node.js, y git por supuesto. Si estas en un entorno unix podrías usar NVM (Node version manager) para descargar y utilizar una version específica de node. 
+Tener instalado node.js, el editor de texto VS code, y git por supuesto. Si estas en un entorno UNIX podrías usar NVM (Node version manager) para descargar y utilizar una version específica de node. 
 
 * [GIT](https://git-scm.com/downloads) - Git
 * [NVM](https://github.com/nvm-sh/nvm) - Node version manager
+* [VScode](https://code.visualstudio.com/) - Visual Studio Code
 
 
 ## Descarga
@@ -41,15 +46,15 @@ npm run dev
 * [ESlint](https://eslint.org/) - Find and fix problems in your JavaScript code
 
 ## Autores
-* [Joel Chavez](https://github.com/BJChavez) -  **Trabajo principal**
+* [Joel Chavez](https://github.com/BJChavez) -  **Principal**
 
 ## Datos
 
-Los datos utilizados para generar el proyecto fueron descargados de la [Plataforma de datos abiertos](https://www.datosabiertos.gob.pe/) Perú. La información se encuentra en [Histórico de Huelgas del Perú 1987 - 2022](https://www.datosabiertos.gob.pe/dataset/hist%C3%B3rico-de-huelgas-del-per%C3%BA-1987-2022-ministerio-de-trabajo-y-promoci%C3%B3n-del-empleo-mtpe).
+Los datos utilizados fueron descargados de la [Plataforma de datos abiertos](https://www.datosabiertos.gob.pe/) del Estado Peruano. La información se encuentra en [Histórico de Huelgas del Perú 1987 - 2022](https://www.datosabiertos.gob.pe/dataset/hist%C3%B3rico-de-huelgas-del-per%C3%BA-1987-2022-ministerio-de-trabajo-y-promoci%C3%B3n-del-empleo-mtpe).
 
 ## Licencia
 
-Este proyecto tiene una licencia GPL. Puede leer [LICENSE.txt](LICENSE.txt) para mas detalles
+Este proyecto tiene una licencia GPL. Mas detalle en [LICENSE.txt](LICENSE.txt)
 
 
 
