@@ -1,10 +1,21 @@
 
 ![Fondo](./public/img/fondo.png)
 
+<div align="center">
+
+![GitHub language count](https://img.shields.io/github/languages/count/BJChavez/huelgasjs?style=flat-square)
+![GitHub top language](https://img.shields.io/github/languages/top/BJChavez/huelgasjs)
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/BJChavez/huelgasjs?style=flat-square)
+
+</div>
 
 ## Descripción
 
+<div align="justify"> 
+
 Luego de que el Ministerio de Trabajo y Promoción del Empleo, mediante la plataforma de Datos Abiertos del Estado Peruano, publicara el dataset:  *Histórico de Huelgas del Perú (1987 - 2022)*, se necesitaba limpiar, implementar y comunicar los datos de manera correcta. Así nació este microproyecto, enfocado en proporcionar una accesibilidad masiva, intercativa y sobre todo visual a la información. Además, para hacerlo más interesante, se manejo el dataset del porcentaje de inflación en el Perú en esos mismos años descagado del sitio web del Banco Mundial. Observe los datos del Banco Mundial [aquí.](https://datos.bancomundial.org/indicator/FP.CPI.TOTL.ZG?locations=PE)
+</div>
+
 
 ## Empecemos
 
@@ -12,7 +23,7 @@ Sigue estos pasos para descargar el repositorio, instalar las dependencias y cor
 
 ## Pre - requisitos
 
-Tener instalado node.js, el editor de texto VS code, y git por supuesto. Si estas en un entorno UNIX podrías usar NVM (Node version manager) para descargar y utilizar una version específica de node. 
+Tener instalado node.js, el editor de codigo VS code, y git por supuesto. Si estas en un entorno UNIX podrías usar NVM (Node version manager) para descargar y utilizar una version específica de node. 
 
 * [GIT](https://git-scm.com/downloads) - Git
 * [NVM](https://github.com/nvm-sh/nvm) - Node version manager
