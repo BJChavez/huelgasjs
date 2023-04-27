@@ -27,7 +27,6 @@ export const dataSets = (option) => {
         fill: true,
         tension: 0.4,
         borderColor: 'rgba(41, 191, 18)'
-        //  yAxisID: 'y'
       },
       {
         label: LABEL_CHART.inflacion,
