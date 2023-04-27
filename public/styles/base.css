@@ -588,8 +588,7 @@ video {
 }
 
 .bg-bgButtom {
-  --tw-bg-opacity: 1;
-  background-color: rgb(4 167 119 / var(--tw-bg-opacity));
+  background-color: rgb(4, 167, 119, .8);
 }
 
 .bg-canva {
@@ -681,7 +680,8 @@ video {
 }
 
 .hover\:bg-hoverButtom:hover {
-  background-color: rgb(4, 167, 119, .8);
+  --tw-bg-opacity: 1;
+  background-color: rgb(4 167 119 / var(--tw-bg-opacity));
 }
 
 @media (min-width: 640px) {
