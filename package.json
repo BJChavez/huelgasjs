@@ -1,6 +1,6 @@
 {
   "name": "analisis-basico",
-  "version": "3.0",
+  "version": "4.0",
   "main": "index.html",
   "devDependencies": {
     "eslint": "^8.39.0",
