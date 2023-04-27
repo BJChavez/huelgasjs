@@ -12,30 +12,30 @@ export const dataSets = (option) => {
       {
         label: LABEL_CHART.pliego,
         data: option.map(pliego => pliego.HUELGAS_PLIEGO_RECLAMOS),
-        backgroundColor: 'rgb(139, 233, 253, .3)',
+        backgroundColor: 'rgb(4, 167, 119, .3)',
         borderWidth: 2,
         fill: true,
         tension: 0.4,
-        borderColor: 'rgb(2, 62, 138)',
+        borderColor: 'rgb(4, 167, 119)',
         yAxisID: 'y'
       },
       {
         label: LABEL_CHART.otros,
         data: option.map(otras => otras.HUELGAS_OTRAS_CAUSAS),
-        backgroundColor: 'rgb(80, 250, 123, .3)',
+        backgroundColor: 'rgb(249, 226, 175, .3)',
         borderWidth: 2,
         fill: true,
         tension: 0.4,
-        borderColor: 'rgba(41, 191, 18)'
+        borderColor: 'rgb(255, 189, 0)'
       },
       {
         label: LABEL_CHART.inflacion,
         data: option.map(c => parseInt(Math.round(c.INFLACION))),
-        backgroundColor: 'rgb(255, 121, 198, .3)',
+        backgroundColor: 'rgb(255, 0, 84, .3)',
         borderWidth: 2,
         fill: true,
         tension: 0.4,
-        borderColor: 'rgb(204, 68, 75)',
+        borderColor: 'rgb(255, 0, 84)',
         yAxisID: 'y1'
       }
     ]

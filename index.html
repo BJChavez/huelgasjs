@@ -18,45 +18,40 @@
             
             <div class="flex flex-col sm:p-6 p-2">
                 <div class="flex flex-col font-bebas">
-                    <h1 class="text-text text-center p-2 font-bold lg:text-7xl md:text-5xl sm:text-4xl text-4xl">
+                    <h1 class="text-text text-center p-2 font-extrabold lg:text-7xl md:text-5xl sm:text-4xl text-4xl">
                         Huelga e inflación en el Perú
                     </h1>
-                    <p class="text-buttom text-center m-2 lg:text-2xl md:text-xl sm:text-base text-sm font-normal">
+                    <p class="text-textSub text-center m-2 lg:text-2xl md:text-xl sm:text-base text-sm font-normal">
                         Visualización de la cantidad de huelgas por el porcentaje de inflación en el Perú desde 1987 hasta 2021.
                     </p>
                     <div class="flex flex-row place-content-center p-3">
                         <a href="https://github.com/BJChavez/huelgasjs" target="blank" class="mr-4">
-                            <img src="./public/img/new-git.svg" alt="github logo" class="md:h-8 md:w-8 h-6 w-6">
+                            <img src="./public/img/new-github.svg" alt="github logo" class="md:h-8 md:w-8 h-6 w-6">
                         </a>
                         <a href="https://www.linkedin.com/in/bjchavez/" target="blank" class="ml-4">
-                            <img src="./public/img/new-in.svg" alt="linkedin logo" class="md:h-8 md:w-8 h-6 w-6">
+                            <img src="./public/img/in.svg" alt="linkedin logo" class="md:h-8 md:w-8 h-6 w-6">
+                        </a>
+                        <a href="https://www.datosabiertos.gob.pe/" target="blank" class="ml-8">
+                            <img src="./public/img/peru.svg" alt="peru logo" class="md:h-8 md:w-8 h-6 w-6">
                         </a>
                     </div>
                 </div>
             </div>
         </header>
 
-        <div class="font-arial">
-            <div class="md:pt-10 pt-2 visible font-bold text-center lg:text-sm text-xs text-text">
-                <select name="" id="graphics" class="text-head">
-                    <option selected>Tipo de gráfico</option>
-                    <option value="bar">Barras</option>
-                    <option value="line">Lineas</option>
-                </select>
-                <button id="download" class="p-3 bg-textSub hover:bg-buttom rounded-lg ml-4 shadow-2xl border-2 border-head">
-                    Dataset
-                </button>
-            </div>
+        <div class="flex flex-row place-content-center font-bebas md:pt-10 pt-2 font-bold text-center lg:text-sm text-xs">
+            <select id="graphics" class="text-head h-auto md:p-2 p-1.5 rounded-md md:text-xl text-sm">
+                <option class="md:text-xl text-sm" selected>Tipo de gráfico</option>
+                <option class="md:text-xl text-sm" value="bar">Barras</option>
+                <option class="md:text-xl text-sm" value="line">Lineas</option>
+            </select>
+            <button id="download" class="md:text-xl text-sm h-auto md:p-2 p-1.5 text-textButtom bg-bgButtom hover:bg-hoverButtom rounded-md ml-4">
+                Descargar dataset
+            </button>
         </div>
 
         <div id="chart" class="flex flex-col"></div>
-    
-        <!-- <button id="bar" class="p-3 bg-textSub hover:bg-buttom rounded-lg mr-4 shadow-2xl border-2 border-head">
-            Gráfico de barras
-        </button>
-        <button id="line" class="p-3 bg-textSub hover:bg-buttom rounded-lg ml-4 shadow-2xl border-2 border-head">
-            Gráfico de lineas
-        </button> -->
+
     </main>
     
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.2.1/dist/chart.umd.min.js"></script>

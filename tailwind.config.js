@@ -3,16 +3,17 @@ module.exports = {
   content: ['./index.html', './src/app.js'],
   theme: {
     fontFamily: {
-      bebas: ['Bebas Neue'],
-      arial: ['Arial']
+      bebas: ['Bebas Neue']
     },
     colors: {
-      text: '#f8f8f2',
-      textSub: '#ff79c6',
-      head: '#44475a',
-      canva: 'rgb(248, 248, 242, .2)',
-      borde: '#44475a',
-      buttom: '#50fa7b'
+      head: 'rgb(0, 43, 91)',
+      text: 'rgb(249, 226, 175)',
+      textSub: 'rgb(234, 84, 85)',
+      bgButtom: 'rgb(4, 167, 119)',
+      hoverButtom: 'rgb(4, 167, 119, .8)',
+      textButtom: 'rgb(255, 255, 255)',
+      canva: 'rgb(249, 226, 175, .1)',
+      borde: 'rgb(0, 43, 91)'
     }
   },
   plugins: []
