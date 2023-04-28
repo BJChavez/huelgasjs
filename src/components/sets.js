@@ -1,5 +1,5 @@
-import { LABEL_CHART } from '../helpers/label.data.js'
-import { STYLE_DATA_SETS } from '../helpers/style.data.js'
+import { LABEL_CHART } from '../helpers/labelData.js'
+import { STYLE_DATA_SETS } from '../helpers/styleData.js'
 
 export const dataSets = (option) => {
   const dataSet = {

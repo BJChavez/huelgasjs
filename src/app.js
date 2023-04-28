@@ -1,5 +1,5 @@
 import { chartGeneral } from './components/graphic.js'
-import { CANVAS_CLASS } from './helpers/styles.canvas.js'
+import { CANVAS_CLASS } from './helpers/styleCanvas.js'
 import { dataPresidents } from '../data/db.js'
 import { changeTypeChart } from './events/event.js'
 
