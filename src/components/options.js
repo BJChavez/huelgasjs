@@ -1,4 +1,9 @@
 
+const titleChart = {
+  huelgas: '# de huelgas',
+  inflacion: '% de inflación'
+}
+
 export const dataOptions = (title) => {
   const options = {
     plugins: {
@@ -29,7 +34,7 @@ export const dataOptions = (title) => {
         beginAtZero: true,
         position: 'left',
         title: {
-          text: '# de huelgas',
+          text: titleChart.huelgas,
           display: true
         }
       },
@@ -37,7 +42,7 @@ export const dataOptions = (title) => {
         beginAtZero: true,
         position: 'right',
         title: {
-          text: '% de inflación',
+          text: titleChart.inflacion,
           display: true
         }
       }
