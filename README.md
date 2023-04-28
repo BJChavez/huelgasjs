@@ -1,9 +1,5 @@
 
-<div align="center>
-
 ![Fondo](./public/img/fondo.png)
-
-</div>
 
 <div align="center">
 
