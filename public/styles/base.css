@@ -588,7 +588,8 @@ video {
 }
 
 .bg-bgButtom {
-  background-color: rgb(4, 167, 119, .8);
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 229 181 / var(--tw-bg-opacity));
 }
 
 .bg-canva {
@@ -597,7 +598,7 @@ video {
 
 .bg-head {
   --tw-bg-opacity: 1;
-  background-color: rgb(0 43 91 / var(--tw-bg-opacity));
+  background-color: rgb(52 53 70 / var(--tw-bg-opacity));
 }
 
 .p-1 {
@@ -661,7 +662,7 @@ video {
 
 .text-head {
   --tw-text-opacity: 1;
-  color: rgb(0 43 91 / var(--tw-text-opacity));
+  color: rgb(52 53 70 / var(--tw-text-opacity));
 }
 
 .text-text {
@@ -671,17 +672,22 @@ video {
 
 .text-textButtom {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(52 53 70 / var(--tw-text-opacity));
 }
 
 .text-textSub {
   --tw-text-opacity: 1;
-  color: rgb(234 84 85 / var(--tw-text-opacity));
+  color: rgb(148 229 181 / var(--tw-text-opacity));
 }
 
 .hover\:bg-hoverButtom:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(4 167 119 / var(--tw-bg-opacity));
+  background-color: rgb(249 226 175 / var(--tw-bg-opacity));
+}
+
+.hover\:text-hoverBtext:hover {
+  --tw-text-opacity: 1;
+  color: rgb(52 53 70 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
