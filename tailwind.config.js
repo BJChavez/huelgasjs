@@ -6,12 +6,13 @@ module.exports = {
       bebas: ['Bebas Neue']
     },
     colors: {
-      head: 'rgb(0, 43, 91)',
+      head: 'rgb(52, 53, 70)',
       text: 'rgb(249, 226, 175)',
-      textSub: 'rgb(234, 84, 85)',
-      bgButtom: 'rgb(4, 167, 119, .8)',
-      hoverButtom: 'rgb(4, 167, 119)',
-      textButtom: 'rgb(255, 255, 255)',
+      textSub: 'rgb(148, 229, 181)',
+      bgButtom: 'rgb(148, 229, 181)',
+      hoverButtom: 'rgb(249, 226, 175)',
+      textButtom: 'rgb(52, 53, 70)',
+      hoverBtext: 'rgb(52, 53, 70)',
       canva: 'rgb(249, 226, 175, .1)',
       borde: 'rgb(0, 43, 91)'
     }
