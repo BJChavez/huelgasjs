@@ -1,5 +1,5 @@
 
-![Fondo](./public/img/fondo.png)
+![Fondo](./public/img/fondo2.png)
 
 <div align="center">
 
