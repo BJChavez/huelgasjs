@@ -26,7 +26,7 @@ export const dataSets = (option) => {
       },
       {
         label: LABEL_CHART.inflacion,
-        data: option.map(x => parseInt(Math.round(x.INFLACION))),
+        data: option.map(x => Number((x.INFLACION).toFixed(2))),
         backgroundColor: STYLE_DATA_SETS.background.inflacion,
         borderColor: STYLE_DATA_SETS.border.inflacion,
         borderWidth: 2,
