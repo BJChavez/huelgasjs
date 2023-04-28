@@ -1,9 +1,5 @@
-
-const LABEL_CHART = {
-  pliego: 'Por pliego de reclamos',
-  otros: 'Por otras causas',
-  inflacion: 'Inflación'
-}
+import { LABEL_CHART } from '../helpers/label.data.js'
+import { STYLE_DATA_SETS } from '../helpers/style.data.js'
 
 export const dataSets = (option) => {
   const dataSet = {
@@ -12,30 +8,30 @@ export const dataSets = (option) => {
       {
         label: LABEL_CHART.pliego,
         data: option.map(pliego => pliego.HUELGAS_PLIEGO_RECLAMOS),
-        backgroundColor: 'rgb(4, 167, 119, .3)',
+        backgroundColor: STYLE_DATA_SETS.background.pliego,
+        borderColor: STYLE_DATA_SETS.border.pliego,
         borderWidth: 2,
         fill: true,
         tension: 0.4,
-        borderColor: 'rgb(4, 167, 119)',
         yAxisID: 'y'
       },
       {
         label: LABEL_CHART.otros,
-        data: option.map(otras => otras.HUELGAS_OTRAS_CAUSAS),
-        backgroundColor: 'rgb(249, 226, 175, .3)',
+        data: option.map(otros => otros.HUELGAS_OTRAS_CAUSAS),
+        backgroundColor: STYLE_DATA_SETS.background.otros,
+        borderColor: STYLE_DATA_SETS.border.otros,
         borderWidth: 2,
         fill: true,
-        tension: 0.4,
-        borderColor: 'rgb(255, 189, 0)'
+        tension: 0.4
       },
       {
         label: LABEL_CHART.inflacion,
-        data: option.map(c => parseInt(Math.round(c.INFLACION))),
-        backgroundColor: 'rgb(255, 0, 84, .3)',
+        data: option.map(x => parseInt(Math.round(x.INFLACION))),
+        backgroundColor: STYLE_DATA_SETS.background.inflacion,
+        borderColor: STYLE_DATA_SETS.border.inflacion,
         borderWidth: 2,
         fill: true,
         tension: 0.4,
-        borderColor: 'rgb(255, 0, 84)',
         yAxisID: 'y1'
       }
     ]
