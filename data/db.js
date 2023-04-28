@@ -357,7 +357,8 @@ const dataSagasti = {
       FECHA_CORTE: 20230330,
       ANIOS: 2022,
       HUELGAS_PLIEGO_RECLAMOS: 23,
-      HUELGAS_OTRAS_CAUSAS: 18
+      HUELGAS_OTRAS_CAUSAS: 18,
+      INFLACION: 8.56
     }
   ]
 }
