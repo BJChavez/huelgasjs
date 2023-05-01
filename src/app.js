@@ -2,8 +2,10 @@ import { chartGeneral } from './components/graphic.js'
 import { CANVAS_CLASS } from './helpers/styleCanvas.js'
 import { dataPresidents } from '../data/db.js'
 import { changeTypeChart } from './events/event.js'
+import { download } from './download/script.csv.js'
 
 const containerGeneral = document.querySelector('#chart')
+const dw = document.querySelector('#download')
 // const CANVAS_CLASS = ['lg:m-20', 'md:m-10', 'm-2', 'border-2', 'border-dashed', 'border-borde', 'rounded-lg', 'p-3', 'bg-canva']
 
 function createChart () {
@@ -22,4 +24,5 @@ function createChart () {
   })
 }
 
+download(dw)
 createChart()
