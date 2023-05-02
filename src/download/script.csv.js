@@ -1,4 +1,4 @@
-import jsonToCsvExport from 'https://cdn.jsdelivr.net/npm/json-to-csv-export@2.1.1/+esm'
+import csvDownload from 'json-to-csv-export'
 import { allData } from '../data/allDb.js'
 
 const convert = {
@@ -9,6 +9,6 @@ const convert = {
 
 export function download (btn) {
   btn.addEventListener('click', () => {
-    return jsonToCsvExport(convert)
+    return csvDownload(convert)
   })
 }
