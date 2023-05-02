@@ -1,5 +1,5 @@
 
-![Fondo](./public/img/fondo2.png)
+![Fondo](./img/fondo2.png)
 
 <div align="center">
 
@@ -11,24 +11,22 @@
 
 ## Descripción
 
-<div align="justify"> 
+<div align="justify">
 
 Luego de que el Ministerio de Trabajo y Promoción del Empleo, mediante la plataforma de Datos Abiertos del Estado Peruano, publicara el dataset:  *Histórico de Huelgas del Perú (1987 - 2022)*, surgió la necesidad de visualizar aquella información. Así nació este microproyecto, el cual se enfoca en proporcionar interacción y acceso masivo, de forma amigable, a los datos de acceso abierto publicados por el Estado Peruano. Además, para hacerlo más interesante, se obtuvieron indicadores estadísticos de la inflación en el Perú en estos mismos años obtenidos desde el Banco Mundial. Observe los datos del Banco Mundial [aquí.](https://datos.bancomundial.org/indicator/FP.CPI.TOTL.ZG?locations=PE)
 </div>
 
-
 ## Empecemos
 
-Sigue estos pasos para descargar el repositorio, instalar las dependencias y correr la aplicación. 
+Sigue estos pasos para descargar el repositorio, instalar las dependencias y correr la aplicación.
 
 ## Pre - requisitos
 
-Tener instalado node.js, el editor de codigo VS code, y git por supuesto. Si estas en un entorno UNIX podrías usar NVM (Node version manager) para descargar y utilizar una version específica de node. 
+Tener instalado node.js, el editor de codigo VS code, y git por supuesto. Si estas en un entorno UNIX podrías usar NVM (Node version manager) para descargar y utilizar una version específica de node.
 
 * [GIT](https://git-scm.com/downloads) - Git
 * [NVM](https://github.com/nvm-sh/nvm) - Node version manager
 * [VScode](https://code.visualstudio.com/) - Visual Studio Code
-
 
 ## Descarga
 
@@ -56,7 +54,8 @@ npm run dev
 * [Tailwindcss](https://tailwindcss.com/) - Rapidly build modern websites without ever leaving your HTML
 * [ESlint](https://eslint.org/) - Find and fix problems in your JavaScript code
 
-## Autores
+### Autores
+
 * [Joel Chavez](https://github.com/BJChavez) -  **Principal**
 
 ## Datos
@@ -66,7 +65,3 @@ Los datos utilizados fueron descargados de la [Plataforma de datos abiertos](htt
 ## Licencia
 
 Este proyecto tiene una licencia GPL. Mas detalle en [LICENSE.txt](LICENSE.txt)
-
-
-
-
