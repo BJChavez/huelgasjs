@@ -1,3 +1,4 @@
+import Chart from 'chart.js/auto'
 import { dataSets } from './sets.js'
 import { dataOptions } from './options.js'
 
