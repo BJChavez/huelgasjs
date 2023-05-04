@@ -1,4 +1,7 @@
-
+/*
+Estamos simulando una base de datos que contiene cada periodo presidencial con diferentes opciones. El codigo esta ordenado para que se exporte en un
+array y pueda ser accedido mediante la funcion (map) en app.js y pintar cada grafico.
+*/
 const dataAlanFirst = {
   title: 'Primer gobierno de Alan García',
   id: 'alan1',
