@@ -1,6 +1,6 @@
 {
-  "name": "analisis-basico",
-  "version": "1.0",
+  "name": "huelgasjs",
+  "version": "1.1",
   "main": "index.html",
   "devDependencies": {
     "autoprefixer": "^10.4.14",
