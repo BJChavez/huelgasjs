@@ -1,4 +1,7 @@
-
+/*
+Separamos esta logica por que es una funcionalidad especifica de los graficos. Se recomienda mantenerlo asi o en todo caso modularizar aun mas el codigo
+de eventos.
+*/
 const TYPE_CHART = {
   bar: 'bar',
   line: 'line'
