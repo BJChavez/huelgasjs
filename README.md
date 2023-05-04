@@ -11,10 +11,7 @@
 
 ## Descripción
 
-<div align="justify">
-
-Luego de que el Ministerio de Trabajo y Promoción del Empleo, mediante la plataforma de Datos Abiertos del Estado Peruano, publicara el dataset:  *Histórico de Huelgas del Perú (1987 - 2022)*, surgió la necesidad de visualizar aquella información. Así nació este microproyecto, el cual se enfoca en proporcionar interacción y acceso masivo, de forma amigable, a los datos de acceso abierto publicados por el Estado Peruano. Además, para hacerlo más interesante, se obtuvieron indicadores estadísticos de la inflación en el Perú en estos mismos años obtenidos desde el Banco Mundial. Observe los datos del Banco Mundial [aquí.](https://datos.bancomundial.org/indicator/FP.CPI.TOTL.ZG?locations=PE)
-</div>
+Proyecto de visualización de datos del Ministerio de Trabajo y Promoción del Empleo: **Cantidad de Huelgas por el porcentaje de Inflación en el Perú desde 1987 hasta 2021**. 
 
 ## Empecemos
 
@@ -42,10 +39,16 @@ git clone https://github.com/BJChavez/huelgasjs.git
 npm install
 ```
 
-3. Corremos la aplicación y abrimos el live server de VS code:
+3. Corremos la aplicación:
 
 ```
 npm run dev
+```
+
+4. Abrimos en el navegador:
+
+```
+http://localhost:5173/
 ```
 
 ## Tecnologías
@@ -60,7 +63,7 @@ npm run dev
 
 ## Datos
 
-Los datos utilizados fueron descargados de la [Plataforma de datos abiertos](https://www.datosabiertos.gob.pe/) del Estado Peruano. La información se encuentra en [Histórico de Huelgas del Perú 1987 - 2022](https://www.datosabiertos.gob.pe/dataset/hist%C3%B3rico-de-huelgas-del-per%C3%BA-1987-2022-ministerio-de-trabajo-y-promoci%C3%B3n-del-empleo-mtpe).
+Los datos utilizados fueron descargados de la [Plataforma de datos abiertos](https://www.datosabiertos.gob.pe/) del Estado Peruano y de la página oficial de datos abiertos del [Banco Mundial](https://datos.bancomundial.org/).
 
 ## Licencia
 
