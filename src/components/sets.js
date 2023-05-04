@@ -1,4 +1,5 @@
-import { LABEL_CHART } from '../helpers/labelData.js'
+// import { LABEL_CHART } from '../helpers/labelData.js'
+import { pliego, otros, inflacion } from '../helpers/labelData.js'
 import { STYLE_DATA_SETS } from '../helpers/styleData.js'
 
 export const dataSets = (option) => {
@@ -6,7 +7,7 @@ export const dataSets = (option) => {
     labels: option.map(a => a.ANIOS),
     datasets: [
       {
-        label: LABEL_CHART.pliego,
+        label: pliego,
         data: option.map(pliego => pliego.HUELGAS_PLIEGO_RECLAMOS),
         backgroundColor: STYLE_DATA_SETS.background.pliego,
         borderColor: STYLE_DATA_SETS.border.pliego,
@@ -16,7 +17,7 @@ export const dataSets = (option) => {
         yAxisID: 'y'
       },
       {
-        label: LABEL_CHART.otros,
+        label: otros,
         data: option.map(otros => otros.HUELGAS_OTRAS_CAUSAS),
         backgroundColor: STYLE_DATA_SETS.background.otros,
         borderColor: STYLE_DATA_SETS.border.otros,
@@ -25,7 +26,7 @@ export const dataSets = (option) => {
         tension: 0.4
       },
       {
-        label: LABEL_CHART.inflacion,
+        label: inflacion,
         data: option.map(x => Number((x.INFLACION).toFixed(2))),
         backgroundColor: STYLE_DATA_SETS.background.inflacion,
         borderColor: STYLE_DATA_SETS.border.inflacion,
