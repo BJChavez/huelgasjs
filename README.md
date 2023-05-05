@@ -32,7 +32,7 @@ Tener instalado node.js, el editor de codigo VS code, y git por supuesto. Si est
 git clone https://github.com/BJChavez/huelgasjs.git
 ```
 
-2. Ahora necesitamos instalar todos los paquetes y dependencias necesarias. Nos movemos al directorio y ejecutamos:
+2. Ahora necesitamos instalar todos los paquetes y dependencias necesarias. En el mismo directorio y ejecutamos:
 
 ```
 npm install
