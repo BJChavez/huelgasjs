@@ -11,7 +11,7 @@
 
 ## Descripción
 
-Proyecto de visualización de datos del Ministerio de Trabajo y Promoción del Empleo: **Cantidad de Huelgas por el porcentaje de Inflación en el Perú desde 1987 hasta 2021**. 
+Proyecto de visualización de datos del Ministerio de Trabajo y Promoción del Empleo, **Cantidad de Huelgas por el porcentaje de Inflación en el Perú desde 1987 hasta 2021**. 
 
 ## Empecemos
 
