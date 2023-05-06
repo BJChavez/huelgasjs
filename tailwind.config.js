@@ -3,7 +3,8 @@ module.exports = {
   content: ['./index.html', './app.js'],
   theme: {
     fontFamily: {
-      bebas: ['Bebas Neue']
+      bebas: ['Bebas Neue'],
+      sans: ['Open Sans']
     },
     colors: {
       head: 'rgb(52, 53, 70)',
