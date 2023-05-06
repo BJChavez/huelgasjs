@@ -3,6 +3,7 @@ import { CANVAS_CLASS } from './src/helpers/styleCanvas.js'
 import { dataPresidents } from './src/data/db.js'
 import { changeTypeChart } from './src/events/event.js'
 import { download } from './src/download/script.csv.js'
+import { chartPdf } from './src/download/chart.pdf.js'
 
 const containerGeneral = document.querySelector('#chart')
 const dw = document.querySelector('#download')
@@ -21,6 +22,7 @@ function createChart () {
 
     const myChart = chartGeneral(newCanvas.id, data.options, data.title)
 
+    chartPdf(myChart.canvas)
     changeTypeChart(myChart)
 
     return myChart
