@@ -8,47 +8,47 @@
     <title>Datos abiertos Perú</title>
 </head>
 <body>
-
-    <main class="">
-
-        <header class="bg-head h-auto p-5">
-            
-            <div class="flex flex-col sm:p-6 p-2">
-                <div class="flex flex-col font-poppins">
-                    <h1 class="text-text text-center p-2 font-semibold lg:text-5xl md:text-5xl sm:text-4xl text-4xl">
-                        Huelga e inflación en el Perú
-                    </h1>
-                    <p class="text-textSub text-center m-2 lg:text-2xl md:text-xl sm:text-base text-sm italic font-light">
-                        Visualización de la cantidad de huelgas por el porcentaje de inflación en el Perú desde 1987 hasta 2021.
-                    </p>
-                    <div class="flex flex-row place-content-center p-3">
-                        <a href="https://github.com/BJChavez/huelgasjs" target="blank" class="mr-4">
-                            <img src="./img/new-github.svg" alt="github logo" class="md:h-8 md:w-8 h-6 w-6">
-                        </a>
-                        <a href="https://www.linkedin.com/in/bjchavez/" target="blank" class="ml-4">
-                            <img src="./img/in.svg" alt="linkedin logo" class="md:h-8 md:w-8 h-6 w-6">
-                        </a>
-                        <a href="https://www.datosabiertos.gob.pe/" target="blank" class="ml-8">
-                            <img src="./img/peru.svg" alt="peru logo" class="md:h-8 md:w-8 h-6 w-6">
-                        </a>
-                    </div>
+    <header class="bg-head h-auto p-5">
+        
+        <div class="flex flex-col sm:p-6 p-2">
+            <div class="flex flex-col">
+                <h1 class="text-text text-center p-2 font-semibold lg:text-7xl md:text-6xl sm:text-4xl text-4xl font-pataway">
+                    HUELGA E INFLACIÓN EN EL PERÚ
+                </h1>
+                <p class="text-textSub text-center m-2 lg:text-2xl md:text-xl sm:text-base text-sm font-normal font-bebas">
+                    Visualización de la cantidad de huelgas por el porcentaje de inflación en el Perú desde 1987 hasta 2021.
+                </p>
+                <div class="flex flex-row place-content-center p-3">
+                    <a href="https://github.com/BJChavez/huelgasjs" target="blank" class="mr-4">
+                        <img src="./img/new-github.svg" alt="github logo" class="md:h-8 md:w-8 h-6 w-6">
+                    </a>
+                    <a href="https://www.linkedin.com/in/bjchavez/" target="blank" class="ml-4">
+                        <img src="./img/in.svg" alt="linkedin logo" class="md:h-8 md:w-8 h-6 w-6">
+                    </a>
+                    <a href="https://www.datosabiertos.gob.pe/" target="blank" class="ml-8">
+                        <img src="./img/peru.svg" alt="peru logo" class="md:h-8 md:w-8 h-6 w-6">
+                    </a>
                 </div>
             </div>
-        </header>
+        </div>
 
-        <div class="flex flex-row place-content-center md:pt-10 pt-2 text-center lg:text-sm text-xs font-lato">
-            <select id="graphics" class="text-head h-auto md:p-2 p-1.5 rounded-md md:text-xl text-sm">
+    </header>
+
+    <main>
+        <div class="flex flex-row place-content-center md:pt-10 pt-2 text-center lg:text-sm text-xs font-bebas">
+            <select id="graphics" class="text-head h-auto md:p-2 p-1.5 rounded-md md:text-xl text-sm border-2">
                 <option class="md:text-xl text-sm" selected>Tipo de gráfico</option>
                 <option class="md:text-xl text-sm" value="bar">Barras</option>
                 <option class="md:text-xl text-sm" value="line">Lineas</option>
             </select>
-            <button id="download" class="md:text-xl text-sm h-auto md:p-2 p-1.5 text-textButtom bg-bgButtom hover:bg-hoverButtom hover:text-hoverBtext rounded-md ml-4 border-2">
+            <button id="download"
+                class="md:text-xl text-sm h-auto md:p-2 p-1.5 text-textButtom bg-bgButtom hover:bg-hoverButtom hover:text-hoverBtext rounded-md ml-4 border-2">
                 Obtener CSV
             </button>
         </div>
-
-        <div id="chart" class="flex flex-col"></div>
-
+        
+        <section id="chart" class="flex flex-col">
+        </section>
     </main>
     <script src="app.js" type="module"></script>
 </body>
