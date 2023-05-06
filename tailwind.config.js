@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     fontFamily: {
       bebas: ['Bebas Neue'],
-      sans: ['Open Sans']
+      lato: ['Lato'],
+      poppins: ['Poppins']
     },
     colors: {
       head: 'rgb(52, 53, 70)',
