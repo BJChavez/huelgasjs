@@ -1,4 +1,4 @@
-
+import '../../styles/input.css'
 const titleChart = {
   huelgas: '# de huelgas',
   inflacion: '% de inflación'
@@ -15,13 +15,15 @@ export const dataOptions = (title) => {
           bottom: 10
         },
         font: {
-          size: 12
+          size: 14,
+          family: 'Lato'
         }
       },
       legend: {
         labels: {
           font: {
-            size: 12
+            size: 12,
+            family: 'Lato'
           }
         }
       },
