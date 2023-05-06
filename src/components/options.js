@@ -19,6 +19,9 @@ export const dataOptions = (title) => {
           family: 'Pathway Gothic One'
         }
       },
+      customCanvasBackgroundColor: {
+        color: 'rgb(249, 226, 175)'
+      },
       legend: {
         labels: {
           font: {
