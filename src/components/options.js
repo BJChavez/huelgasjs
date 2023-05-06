@@ -1,4 +1,4 @@
-import '../../styles/input.css'
+
 const titleChart = {
   huelgas: '# de huelgas',
   inflacion: '% de inflación'
@@ -16,14 +16,14 @@ export const dataOptions = (title) => {
         },
         font: {
           size: 14,
-          family: 'Lato'
+          family: 'Pathway Gothic One'
         }
       },
       legend: {
         labels: {
           font: {
-            size: 12,
-            family: 'Lato'
+            size: 14,
+            family: 'Pathway Gothic One'
           }
         }
       },
