@@ -4,11 +4,10 @@ module.exports = {
   theme: {
     fontFamily: {
       bebas: ['Bebas Neue'],
-      lato: ['Lato'],
-      poppins: ['Poppins']
+      pataway: ['Pathway Gothic One']
     },
     colors: {
-      head: 'rgb(52, 53, 70)',
+      head: 'rgb(40, 42, 54)',
       text: 'rgb(249, 226, 175)',
       textSub: 'rgb(148, 229, 181)',
       bgButtom: 'rgb(148, 229, 181)',
