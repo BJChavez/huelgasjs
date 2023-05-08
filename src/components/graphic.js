@@ -1,6 +1,6 @@
 import Chart from 'chart.js/auto'
-import { dataSets } from './sets.js'
-import { dataOptions } from './options.js'
+import { dataSets } from './datSets.js'
+import { dataOptions } from './dataOptions.js'
 
 export const chartGeneral = (ctx, option, title) => new Chart(ctx, {
   type: 'line',
