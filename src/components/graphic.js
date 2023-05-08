@@ -1,5 +1,5 @@
 import Chart from 'chart.js/auto'
-import { dataSets } from './datSets.js'
+import { dataSets } from './dataSets.js'
 import { dataOptions } from './dataOptions.js'
 
 export const chartGeneral = (ctx, option, title) => new Chart(ctx, {
