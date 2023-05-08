@@ -1,24 +1,25 @@
 /*
-Separamos esta logica por que es una funcionalidad especifica de los graficos. Se recomienda mantenerlo asi o en todo caso modularizar aun mas el codigo
-de eventos.
+Separamos esta logica por que es una funcionalidad especifica de los graficos. Se recomienda mantenerlo asi o en todo caso modularizar aun mas el codigo de eventos.
 */
-const TYPE_CHART = {
-  bar: 'bar',
-  line: 'line'
+
+class Events {
+  constructor () {
+    this.bar = 'bar'
+    this.line = 'line'
+  }
+
+  changeTypeChart (ctx) {
+    const graphic = document.querySelector('#graphics')
+    graphic.addEventListener('change', (option) => {
+      if (option.target.value === this.bar) {
+        ctx.config.type = this.bar
+        ctx.update()
+      } else if (option.target.value === this.line) {
+        ctx.config.type = this.line
+        ctx.update()
+      }
+    })
+  }
 }
 
-const { bar, line } = TYPE_CHART
-
-const graphic = document.querySelector('#graphics')
-
-export function changeTypeChart (ctx) {
-  graphic.addEventListener('change', (option) => {
-    if (option.target.value === bar) {
-      ctx.config.type = bar
-      ctx.update()
-    } else if (option.target.value === line) {
-      ctx.config.type = line
-      ctx.update()
-    }
-  })
-}
+export const event = new Events()
