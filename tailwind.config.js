@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     fontFamily: {
       bebas: ['Bebas Neue'],
-      pataway: ['Pathway Gothic One']
+      pataway: ['Pathway Gothic One'],
+      monalisa: ['Monalisa']
     },
     colors: {
       head: 'rgb(40, 42, 54)',
