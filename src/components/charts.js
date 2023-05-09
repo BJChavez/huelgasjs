@@ -1,7 +1,7 @@
 import { dataPresidents } from '../../data/db.js'
-import { download } from '../download/download.js'
+// import { download } from '../download/download.js'
 import { CANVAS_CLASS } from '../helpers/styleCanvas'
-import { chartGeneral } from './graphic'
+import { chartGeneral } from './graphic.js'
 import { event } from '../events/event.js'
 
 class ChartView {
@@ -15,7 +15,6 @@ class ChartView {
 
       const myChart = chartGeneral(newCanvas.id, data.options, data.title)
 
-      download.chartPdf(myChart.canvas)
       event.changeTypeChart(myChart)
 
       return myChart
