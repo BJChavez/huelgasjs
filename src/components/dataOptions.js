@@ -20,7 +20,7 @@ export const dataOptions = (title) => {
         }
       },
       customCanvasBackgroundColor: {
-        color: 'rgb(255, 255, 255)'
+        color: 'rgb(255,255,255)'
       },
       legend: {
         labels: {
