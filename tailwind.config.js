@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: ['./index.html', './app.js', './src/components/*.js'],
   theme: {
     fontFamily: {
@@ -15,7 +15,7 @@ module.exports = {
       hoverButtom: 'rgb(249, 226, 175)',
       textButtom: 'rgb(52, 53, 70)',
       hoverBtext: 'rgb(52, 53, 70)',
-      canva: 'rgb(255, 255, 255)',
+      canva: 'rgb(255,255,255)',
       borde: 'rgb(0, 43, 91)'
     }
   },
