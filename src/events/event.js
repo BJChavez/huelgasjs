@@ -19,7 +19,7 @@ class Events {
         ctx.update()
       }
     })
-  }
+  }  
 }
 
 export const event = new Events()
