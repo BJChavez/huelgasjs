@@ -11,8 +11,7 @@ export const dataOptions = (title) => {
         display: true,
         text: title,
         padding: {
-          top: 30,
-          bottom: 10
+          top: 5
         },
         font: {
           size: 14,
@@ -25,7 +24,7 @@ export const dataOptions = (title) => {
       legend: {
         labels: {
           font: {
-            size: 14,
+            size: 12,
             family: 'Pathway Gothic One'
           }
         }
@@ -41,7 +40,7 @@ export const dataOptions = (title) => {
         title: {
           text: titleChart.huelgas,
           display: true
-        }
+        },
       },
       y1: {
         beginAtZero: true,
@@ -53,7 +52,9 @@ export const dataOptions = (title) => {
       }
     },
     maintainAspecRatio: false,
-    responsive: true
+    responsive: true,
+    aspectRatio: 2,
+    resizeDelay: 1
   }
 
   return options
