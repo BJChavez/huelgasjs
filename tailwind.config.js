@@ -4,8 +4,7 @@ export default {
   theme: {
     fontFamily: {
       bebas: ['Bebas Neue'],
-      pataway: ['Pathway Gothic One'],
-      monalisa: ['Monalisa']
+      pataway: ['Pathway Gothic One']
     },
     colors: {
       head: 'rgb(40, 42, 54)',

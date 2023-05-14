@@ -5,9 +5,3 @@
 @tailwind components;
 @tailwind utilities;
 
-
-/*Custom Fonts*/
-@font-face {
-  font-family: Monalisa;
-  src: url(/fonts/MonoLisa-Regular.ttf);
-}
